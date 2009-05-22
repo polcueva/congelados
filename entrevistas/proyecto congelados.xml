@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "C:\Archivos de programa\REM 1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>proyecto congelados</rem:name>
@@ -2041,6 +2041,98 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno
 </rem:comments>
+<rem:section
+ oid = "SEC-0029">
+<rem:name>
+Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0030">
+<rem:name>
+Modelo estático del sistema (diagrama de clase)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>2 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0031">
+<rem:name>
+Modelo dinámico del sistema (diagrama de secuencia)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>3 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0032">
+<rem:name>
+Modelo funcional del sistema (Operaciones del sistema)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>4 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0033">
+<rem:name>
+Prototipo de interfaz de usuario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>5 </rem:number>
+</rem:section>
 </rem:d_requirementsSpecification>
 <rem:defectsSpecification oid = "DFS-0003">
 <rem:name>Registro de Conflictos y Defectos</rem:name>
