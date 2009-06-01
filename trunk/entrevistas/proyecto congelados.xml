@@ -2759,6 +2759,159 @@ Glosario de Términos</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>7 </rem:number>
+<rem:paragraph
+ oid = "PRG-0007">
+<rem:name>
+Cartera de Clientes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Cartera de clientes:  conjunto de clientes que tiene una empresa o un vendedor.<br/></rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0008">
+<rem:name>
+Preventa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Preventa: es la venta de los productos antes  de ser entregados al cliente, suelen ser realizadas por los comerciales de la empresa en cuestión, los cuales  presentan ante los clientes catálogos de los productos que ofrecen.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0009">
+<rem:name>
+Pago a reposición</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Pago a Reposición: se  abona el importe de cada remesa cuando se recibe la siguiente. Suele ser frecuente en el sector de la restauración.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0010">
+<rem:name>
+Nave Industrial</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Nave industrial:  edificio grande, de una sola planta, con el techo alto y sin divisiones, que se usa como fábrica, como granja o como almacén.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0011">
+<rem:name>
+Inventario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Inventario:  documento en el que están escritos los asientos de los bienes y demás cosas pertenecientes a una persona o comunidad, hecho con orden y distinción.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0012">
+<rem:name>
+Stock</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Stock: Cantidad de productos, materias primas, herramientas, etc., que es necesario tener almacenadas para compensar la diferencia entre el flujo del consumo y el de la producción. Constituye una inversión que permite asegurar en condiciones óptimas la continuidad de las ventas, las fabricaciones y la explotación normal de la empresa.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0013">
+<rem:name>
+Presupuesto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Presupuesto: Estimación de los gastos e ingresos de una unidad económica (familia, empresa, Estado) en un determinado período. Estimación del precio de una mercancía o servicio.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0014">
+<rem:name>
+Albarán</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Albarán: Nota de entrega de una cosa que debe firmar la persona que la recibe y devolvérsela a la persona que la ha llevado.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0015">
+<rem:name>
+Proveedor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Proveedor:  Persona que tiene por oficio proveer de todo lo necesario a una colectividad o casa de gran consumo.</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
@@ -2794,6 +2947,25 @@ Introducción</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0016">
+<rem:name>
+Descripción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El proyecto esta basado en una empresa llamada Congelados Carmona S.L. Fue fundada sobre el año 92. En sus inicios esta empresa estaba situada en la Ctra. Nacional IV, km.509, 41410 Carmona (Sevilla). Posteriormente se traslado a una nave industrial en el Polígono El Pilero  C/Cerrajero 2 también situado en Carmona.<br/> Esta nave está dotada de una oficina, una zona para la venta al público, una cámara de congelación y otra de refrigeración con acceso privado para los trabajadores. <br/>Congelados Carmona es una empresa encargada de ofrecer una gran variedad de productos, la mayoría del departamento de congelados y especialidades para restaurante, así como también se encarga de su servicio al público. Cuenta con una serie de proveedores que visitan el establecimiento y ofrecen productos nuevos, realizan compras a estos y ellos proponen la forma de pago. Hay distintas formas de pago a estos proveedores, al contado, a reposición, y  con otros acuerdos (al mes, a 3 meses,…), estas formas de pago depende de la cantidad del pedido y del propio proveedor.<br/><br/>A lo largo de este documento vamos a describir los procesos relativos a la preventa y a la venta que realizan los trabajadores, así como la distribución del producto. Los trabajadores disponen cada uno de una cartera de clientes y estos los visitan, normalmente por las mañanas, por las tardes cargan las mercancías y preparan las facturas, al día siguiente la mercancía es distribuida y las formas de pago, al igual que los proveedores, dependen del cliente. Normalmente si el cliente lleva tiempo confiando en sus servicios, la empresa ofrece más facilidades de pago, y también dependiendo de la cantidad de la mercancía se acuerda una forma de pago u otra.<br/>Esta empresa para garantizar un servicio optimo y para que los pedidos lleguen a tiempo y en buenas condiciones dispone de 4 furgones con cámara isotérmica. Por otra parte, otro servicio que presta esta empresa es la venta al público. Hay una zona de autoservicio en la que cualquier persona puede comprar y será atendida por una cajera que le cobrará al contado. El establecimiento está abierto de lunes a viernes de 10:00 a 20:00 de la tarde. La plantilla de trabajadores consta de dos repartidores, cinco vendedores, una dependienta y un administrativo. <br/></rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0030">
@@ -2812,6 +2984,27 @@ Modelo estático del sistema (diagrama de clase)</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>2 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0014">
+<rem:name>
+Diagrama de Clases</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[E:\FACULTAD\2ºCUATRIMESTRE\ISG1\PRACTICAS\PROYECTO\diagrama de clases bien echo.jpg]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0031">
@@ -2898,22 +3091,22 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0002" >
+<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0001"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
+<rem:trace source = "IRQ-0002"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0006"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0003"  target = "OBJ-0003" >
@@ -3183,22 +3376,16 @@ Hour:minutes:seconds</rem:description>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0001">
 <rem:name>PD</rem:name>
 <rem:description>
 <![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
@@ -3219,16 +3406,22 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
 <rem:name>No implementabilidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
