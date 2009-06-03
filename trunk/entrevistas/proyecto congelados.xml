@@ -3060,7 +3060,7 @@ Diagrama Secuencia Facturación</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[E:\FACULTAD\2ºCUATRIMESTRE\ISG1\PRACTICAS\PROYECTO\Diagramas de Secuencias\Diagrama secuencia de Facturacion.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de Facturacion.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -3081,7 +3081,7 @@ Diagrama Secuencias Confirmación de Entrega</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[E:\FACULTAD\2ºCUATRIMESTRE\ISG1\PRACTICAS\PROYECTO\Diagramas de Secuencias\Diagrama secuencia confirmacion de entrega de pedido.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia confirmacion de entrega de pedido.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -3122,7 +3122,7 @@ Diagrama Secuencias Alta Clientes</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[E:\FACULTAD\2ºCUATRIMESTRE\ISG1\PRACTICAS\PROYECTO\Diagramas de Secuencias\Diagrama secuencia de alta cliente.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta cliente.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -3143,7 +3143,7 @@ Diagrama Secuencia Buscar Cliente</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[E:\FACULTAD\2ºCUATRIMESTRE\ISG1\PRACTICAS\PROYECTO\Diagramas de Secuencias\Diagrama secuencia buscar cliente.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia buscar cliente.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -3184,7 +3184,7 @@ Diagrama Secuencia Alta de Pedido</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[E:\FACULTAD\2ºCUATRIMESTRE\ISG1\PRACTICAS\PROYECTO\Diagramas de Secuencias\Diagrama secuencia de alta de pedido.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta de pedido.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -3205,7 +3205,7 @@ Diagrama Secuencia Alta Producto en Almacén</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[E:\FACULTAD\2ºCUATRIMESTRE\ISG1\PRACTICAS\PROYECTO\Diagramas de Secuencias\Diagrama secuencia de alta de producto en almacen.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta de producto en almacen.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
