@@ -1802,62 +1802,68 @@ La <rem:ref oid="GLO-0019">factura</rem:ref> queda registrada y asociada al clie
 </rem:value>
 <rem:timeUnit value = "TUV-0007"/>
 </rem:frequency>
-<rem:step oid = "STP-0157">
+<rem:step oid = "STP-0056">
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
+<<<<<<< .mine
+solicita la creación de la nueva factura.</rem:description>
+=======
 solicita la creacion de la nueva <rem:ref oid="GLO-0019">factura</rem:ref>.</rem:description>
+>>>>>>> .r44
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0158">
+<rem:step oid = "STP-0057">
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
+<<<<<<< .mine
+proporciona la plantilla del impreso.</rem:description>
+=======
 solicita el <rem:ref oid="GLO-0026">pedido</rem:ref> de la venta<br/><br/></rem:description>
+>>>>>>> .r44
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0159">
+<rem:step oid = "STP-0058">
 <rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0001">
+<rem:systemAction>
 <rem:description>
-proporciona los datos para identificar el <rem:ref oid="GLO-0026">pedido</rem:ref><br/><br/></rem:description>
-</rem:actorAction>
+solicita el pedido de la venta.</rem:description>
+</rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0160">
+<rem:step oid = "STP-0059">
 <rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra los datos del <rem:ref oid="GLO-0026">pedido</rem:ref></rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0161">
-<rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-actualiza los datos de productos y cantidades.</rem:description>
+<<<<<<< .mine
+introduce la información con los productos y sus respectivas <br/>cantidades.=======
+proporciona los datos para identificar el <rem:ref oid="GLO-0026">pedido</rem:ref><br/>>>>>>>> .r44
+<br/></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0162">
-<rem:number>6</rem:number>
+<rem:step oid = "STP-0060">
+<rem:number>5</rem:number>
 <rem:systemAction>
 <rem:description>
-pregunta por el tipo de pago<br/></rem:description>
+<<<<<<< .mine
+pregunta por el tipo de pago</rem:description>
+=======
+muestra los datos del <rem:ref oid="GLO-0026">pedido</rem:ref></rem:description>
+>>>>>>> .r44
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0163">
-<rem:number>7</rem:number>
+<rem:step oid = "STP-0061">
+<rem:number>6</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 introduce el tipo de pago.</rem:description>
@@ -1865,24 +1871,44 @@ introduce el tipo de pago.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0164">
-<rem:number>8</rem:number>
+<rem:step oid = "STP-0062">
+<rem:number>7</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita la confirmación de los datos.</rem:description>
+ solicita la confirmación de los datos.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0165">
-<rem:number>9</rem:number>
+<rem:step oid = "STP-0063">
+<rem:number>8</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-confirma</rem:description>
+confirma.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
+<rem:step oid = "STP-0064">
+<rem:number>9</rem:number>
+<rem:systemAction>
+<rem:description>
+registra la factura y pregunta si se desea una copia de esta.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0065">
+<rem:number>10</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+acepta.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<<<<<<< .mine
+=======
 <rem:step oid = "STP-0166">
 <rem:number>10</rem:number>
 <rem:systemAction>
@@ -1892,6 +1918,7 @@ registra la <rem:ref oid="GLO-0019">factura</rem:ref> e imprime una copia de est
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
+>>>>>>> .r44
 </rem:useCase>
 <rem:useCase
  oid = "UC-0007">
@@ -3416,7 +3443,11 @@ Nueva <rem:ref oid="GLO-0019">Factura</rem:ref></rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
+<<<<<<< .mine
+Genera una nueva Factura de venta en el sistema </rem:description>
+=======
 Genera una nueva <rem:ref oid="GLO-0019">Factura</rem:ref> en el sistema </rem:description>
+>>>>>>> .r44
 <rem:parameter oid = "PAR-0133" baseType = "PVT-0004">
 <rem:name>
 PedidoID </rem:name>
@@ -3425,11 +3456,11 @@ identificador correspondiente a un objeto de la clase <rem:ref oid="GLO-0026">Pe
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
-<rem:parameter oid = "PAR-0134" baseType = "PVT-0004">
+<rem:parameter oid = "PAR-0180" baseType = "PVT-0005">
 <rem:name>
-numFacturaID</rem:name>
+fechaVenta</rem:name>
 <rem:description>
-es un identificador de Facturacion</rem:description>
+fecha de la venta realizada</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -3558,7 +3589,11 @@ Ninguno</rem:comments>
 <rem:systemOperation
  oid = "SOP-0014">
 <rem:name>
+<<<<<<< .mine
+Obtener Factura</rem:name>
+=======
 Modificar <rem:ref oid="GLO-0019">Factura</rem:ref></rem:name>
+>>>>>>> .r44
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3573,7 +3608,217 @@ Modificar <rem:ref oid="GLO-0019">Factura</rem:ref></rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-los datos de la facturan quedan modificados si es necesario</rem:description>
+se obtienen todos los datos de la factura para revisar cuales han de ser modificados</rem:description>
+<rem:parameter oid = "PAR-0177" baseType = "PVT-0001">
+<rem:name>
+numFacturaP</rem:name>
+<rem:description>
+identificador de Factura de venta</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0178">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Existe un objeto de la clase Pedido en el sistema tal que numFactura = numFacturaP.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+</rem:systemOperation>
+<rem:systemOperation
+ oid = "SOP-0015">
+<rem:name>
+Modificar Datos </rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+modifica todos los datos que se encuentran en la Factura de venta</rem:description>
+<rem:parameter oid = "PAR-0156" baseType = "PVT-0004">
+<rem:name>
+numFacturaP</rem:name>
+<rem:description>
+identificador del objeto creado en la clase Factura de venta</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0157" baseType = "PVT-0004">
+<rem:name>
+formaPagoP</rem:name>
+<rem:description>
+forma de pago con la que el cliente desea pagar dicha factura</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0158" baseType = "PVT-0001">
+<rem:name>
+estaPagadoP</rem:name>
+<rem:description>
+valor booleano que indica si lafactura ya ha sido pagada o no.</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0159" baseType = "PVT-0001">
+<rem:name>
+importeP</rem:name>
+<rem:description>
+importe que tiene que pagar el cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0160" baseType = "PVT-0005">
+<rem:name>
+fechaVenta</rem:name>
+<rem:description>
+fecha de la venta realizada</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0161" baseType = "PVT-0004">
+<rem:name>
+nombreC</rem:name>
+<rem:description>
+nombre del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0162" baseType = "PVT-0004">
+<rem:name>
+apellidosC</rem:name>
+<rem:description>
+apellidos del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0163" baseType = "PVT-0004">
+<rem:name>
+domicilioC</rem:name>
+<rem:description>
+domicilio del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0164" baseType = "PVT-0004">
+<rem:name>
+CPC</rem:name>
+<rem:description>
+codigo postal del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0165" baseType = "PVT-0004">
+<rem:name>
+localidadC</rem:name>
+<rem:description>
+localidad del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0166" baseType = "PVT-0004">
+<rem:name>
+provinciaC</rem:name>
+<rem:description>
+provincia del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0167" baseType = "PVT-0004">
+<rem:name>
+paisC</rem:name>
+<rem:description>
+pais del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0168" baseType = "PVT-0001">
+<rem:name>
+telefonoC</rem:name>
+<rem:description>
+telefono del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0169" baseType = "PVT-0004">
+<rem:name>
+email</rem:name>
+<rem:description>
+email del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0170" baseType = "PVT-0004">
+<rem:name>
+DNI </rem:name>
+<rem:description>
+identificador del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0171" baseType = "PVT-0004">
+<rem:name>
+nombreP</rem:name>
+<rem:description>
+nombre del producto</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0172" baseType = "PVT-0002">
+<rem:name>
+cantidadP</rem:name>
+<rem:description>
+cantidad del producto</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0173" baseType = "PVT-0005">
+<rem:name>
+fechaEntrega</rem:name>
+<rem:description>
+fecha de entrega del pedido </rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0174" baseType = "PVT-0001">
+<rem:name>
+estaEntregado</rem:name>
+<rem:description>
+valos booleano que indica si el pedido ha sido entregado  </rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0175">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+el identificador de la Factura de venta pasado como parametro ha de estar registrado</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0176">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+los datos del objeto factura creado, quedan modificados </rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
 </rem:systemOperation>
 </rem:section>
 </rem:section>
@@ -3750,53 +3995,6 @@ Ninguno</rem:comments>
 Ninguno</rem:comments>
 </rem:postconditionExpression>
 </rem:systemOperation>
-<rem:systemOperation
- oid = "SOP-0002">
-<rem:name>
-Finalizar Cliente</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-finaliza el registro de un nuevo cliente.</rem:description>
-<rem:parameter oid = "PAR-0101" baseType = "PVT-0004">
-<rem:name>
-DNI</rem:name>
-<rem:description>
-es el identificador del cliente</rem:description>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:parameter>
-<rem:preconditionExpression oid = "PRE-0102">
-<rem:name>1</rem:name>
-<rem:expression>
-<rem:natural>
-Existe un objeto de la clase Cliente tal que el campo DNI tiene valor DNI pasado como parámetro.</rem:natural>
-<rem:ocl><![CDATA[true]]></rem:ocl>
-</rem:expression>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:preconditionExpression>
-<rem:postconditionExpression oid = "POS-0103">
-<rem:name>1</rem:name>
-<rem:expression>
-<rem:natural>
-El objeto de la clase Cliente creado que guardado en el sistema</rem:natural>
-<rem:ocl><![CDATA[true]]></rem:ocl>
-</rem:expression>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:postconditionExpression>
-</rem:systemOperation>
 </rem:section>
 <rem:section
  oid = "SEC-0044">
@@ -3837,9 +4035,9 @@ Ninguno</rem:comments>
 Buscar de entre todos los objetos de la clase Cliente creados, uno en concreto.</rem:description>
 <rem:parameter oid = "PAR-0105" baseType = "PVT-0004">
 <rem:name>
-NombreP</rem:name>
+DNI</rem:name>
 <rem:description>
-nombre del cliente</rem:description>
+identificador del cliente</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -4608,6 +4806,9 @@ Ninguno
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "SOP-0014"  target = "UC-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0015"  target = "UC-0007" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>

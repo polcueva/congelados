@@ -356,7 +356,7 @@ Abrir una nueva factura</a>
 <tr>
 <th align="left" valign="top">Descripción</th>
 <td align="left" valign="top">
-Genera una nueva <a href="#GLO-0019" title="es un documento que refleja la entrega o venta de un producto, junto a la fecha de venta, además de indicar la cantidad a pagar como contraprestación. En la factura se encuentran los datos del vendedor y del cliente, el detalle de los productos, los precios unitarios y los precios totales">Factura</a> en el sistema </td>
+<<<<<<< .mineGenera una nueva Factura de venta en el sistema </td>=======Genera una nueva <a href="#GLO-0019" title="es un documento que refleja la entrega o venta de un producto, junto a la fecha de venta, además de indicar la cantidad a pagar como contraprestación. En la factura se encuentran los datos del vendedor y del cliente, el detalle de los productos, los precios unitarios y los precios totales">Factura</a> en el sistema </td>>>>>>>> .r44
 </tr>
 <tr>
 <th align="left" valign="top">Parámetros</th>
@@ -366,12 +366,12 @@ Genera una nueva <a href="#GLO-0019" title="es un documento que refleja la entre
 PedidoID  : <code>
 String</code> -- <em>
 identificador correspondiente a un objeto de la clase <a href="#GLO-0026" title="Encargo hecho a un fabricante o vendedor de géneros de su tráfico">Pedido</a>
-</em></code><br />
-<a name="PAR-0134" />
+<<<<<<< .mine<a name="PAR-0180" />=======</em></code><br />
+<a name="PAR-0134" />>>>>>>> .r44
 <code>
-numFacturaID : <code>
-String</code> -- <em>
-es un identificador de Facturacion</em></code><br />
+fechaVenta : <code>
+Date</code> -- <em>
+fecha de la venta realizada</em></code><br />
 </td>
 </tr>
 <tr>
@@ -537,7 +537,7 @@ Modificar Factura</h3><a name="SOP-0014" />
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">SOP-0014</th>
 <th align="left" valign="top" width="100%">
-Modificar Factura</th>
+Obtener Factura</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -585,20 +585,31 @@ Modificar factura</a>
 <tr>
 <th align="left" valign="top">Descripción</th>
 <td align="left" valign="top">
-los datos de la facturan quedan modificados si es necesario</td>
+se obtienen todos los datos de la factura para revisar cuales han de ser modificados</td>
 </tr>
 <tr>
 <th align="left" valign="top">Parámetros</th>
-<td align="left" valign="top">Ninguno</td>
+<td align="left" valign="top">
+<a name="PAR-0177" />
+<code>
+numFacturaP : <code>
+Real</code> -- <em>
+identificador de Factura de venta</em></code><br />
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición</th>
-<td align="left" valign="top">Ninguno</td>
+<td align="left" valign="top">
+<a name="PRE-0178" />
+<b>1</b>: 
+					
+Existe un objeto de la clase Pedido en el sistema tal que numFactura = numFacturaP.<br />
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code>true</code>
+<code><b>1</b>: true</code><br />
 </td>
 </tr>
 <tr>
@@ -609,6 +620,197 @@ los datos de la facturan quedan modificados si es necesario</td>
 <th align="left" valign="top">Expresiones de postcondición (OCL)</th>
 <td align="left" valign="top">
 <code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SOP-0015" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0015</th>
+<th align="left" valign="top" width="100%">
+Modificar Datos </th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 09/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0007" title="Modificar factura">
+                                [UC-0007] 
+Modificar factura</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+modifica todos los datos que se encuentran en la Factura de venta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0156" />
+<code>
+numFacturaP : <code>
+String</code> -- <em>
+identificador del objeto creado en la clase Factura de venta</em></code><br />
+<a name="PAR-0157" />
+<code>
+formaPagoP : <code>
+String</code> -- <em>
+forma de pago con la que el cliente desea pagar dicha factura</em></code><br />
+<a name="PAR-0158" />
+<code>
+estaPagadoP : <code>
+Real</code> -- <em>
+valor booleano que indica si lafactura ya ha sido pagada o no.</em></code><br />
+<a name="PAR-0159" />
+<code>
+importeP : <code>
+Real</code> -- <em>
+importe que tiene que pagar el cliente</em></code><br />
+<a name="PAR-0160" />
+<code>
+fechaVenta : <code>
+Date</code> -- <em>
+fecha de la venta realizada</em></code><br />
+<a name="PAR-0161" />
+<code>
+nombreC : <code>
+String</code> -- <em>
+nombre del cliente</em></code><br />
+<a name="PAR-0162" />
+<code>
+apellidosC : <code>
+String</code> -- <em>
+apellidos del cliente</em></code><br />
+<a name="PAR-0163" />
+<code>
+domicilioC : <code>
+String</code> -- <em>
+domicilio del cliente</em></code><br />
+<a name="PAR-0164" />
+<code>
+CPC : <code>
+String</code> -- <em>
+codigo postal del cliente</em></code><br />
+<a name="PAR-0165" />
+<code>
+localidadC : <code>
+String</code> -- <em>
+localidad del cliente</em></code><br />
+<a name="PAR-0166" />
+<code>
+provinciaC : <code>
+String</code> -- <em>
+provincia del cliente</em></code><br />
+<a name="PAR-0167" />
+<code>
+paisC : <code>
+String</code> -- <em>
+pais del cliente</em></code><br />
+<a name="PAR-0168" />
+<code>
+telefonoC : <code>
+Real</code> -- <em>
+telefono del cliente</em></code><br />
+<a name="PAR-0169" />
+<code>
+email : <code>
+String</code> -- <em>
+email del cliente</em></code><br />
+<a name="PAR-0170" />
+<code>
+DNI  : <code>
+String</code> -- <em>
+identificador del cliente</em></code><br />
+<a name="PAR-0171" />
+<code>
+nombreP : <code>
+String</code> -- <em>
+nombre del producto</em></code><br />
+<a name="PAR-0172" />
+<code>
+cantidadP : <code>
+Integer</code> -- <em>
+cantidad del producto</em></code><br />
+<a name="PAR-0173" />
+<code>
+fechaEntrega : <code>
+Date</code> -- <em>
+fecha de entrega del pedido </em></code><br />
+<a name="PAR-0174" />
+<code>
+estaEntregado : <code>
+Real</code> -- <em>
+valos booleano que indica si el pedido ha sido entregado  </em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0175" />
+<b>1</b>: 
+					
+el identificador de la Factura de venta pasado como parametro ha de estar registrado<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0176" />
+<b>1</b>: 
+los datos del objeto factura creado, quedan modificados <br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
 </td>
 </tr>
 <tr>
@@ -777,101 +979,6 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="SOP-0002" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">SOP-0002</th>
-<th align="left" valign="top" width="100%">
-Finalizar Cliente</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top">1.0 
-			( 07/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="1">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td align="left" valign="top">
-finaliza el registro de un nuevo cliente.</td>
-</tr>
-<tr>
-<th align="left" valign="top">Parámetros</th>
-<td align="left" valign="top">
-<a name="PAR-0101" />
-<code>
-DNI : <code>
-String</code> -- <em>
-es el identificador del cliente</em></code><br />
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Expresiones de precondición</th>
-<td align="left" valign="top">
-<a name="PRE-0102" />
-<b>1</b>: 
-					
-Existe un objeto de la clase Cliente tal que el campo DNI tiene valor DNI pasado como parámetro.<br />
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Expresiones de precondición (OCL)</th>
-<td align="left" valign="top">
-<code><b>1</b>: true</code><br />
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Expresiones de postcondición</th>
-<td align="left" valign="top">
-<a name="POS-0103" />
-<b>1</b>: 
-El objeto de la clase Cliente creado que guardado en el sistema<br />
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
-<td align="left" valign="top">
-<code><b>1</b>: true</code><br />
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="1">
-Ninguno</td>
-</tr>
-</table>
-<p />
 <a name="SEC-0044" />
 <h3 align="left">4.2.2 
 Buscar Cliente</h3><a name="SOP-0003" />
@@ -934,9 +1041,9 @@ Buscar de entre todos los objetos de la clase Cliente creados, uno en concreto.<
 <td align="left" valign="top">
 <a name="PAR-0105" />
 <code>
-NombreP : <code>
+DNI : <code>
 String</code> -- <em>
-nombre del cliente</em></code><br />
+identificador del cliente</em></code><br />
 </td>
 </tr>
 <tr>
