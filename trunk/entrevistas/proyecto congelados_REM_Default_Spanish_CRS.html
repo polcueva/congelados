@@ -1037,14 +1037,14 @@ Juan Hidalgo</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="Informatización de la gestión de almacén">
-                                [OBJ-0003] 
-Informatización de la gestión de almacén</a>
-</li>
-<li>
 <a href="#OBJ-0002" title="Informatización relativa al proceso de compra-ventas">
                                 [OBJ-0002] 
 Informatización relativa al proceso de compra-ventas</a>
+</li>
+<li>
+<a href="#OBJ-0003" title="Informatización de la gestión de almacén">
+                                [OBJ-0003] 
+Informatización de la gestión de almacén</a>
 </li>
 </td>
 </tr>
@@ -1175,14 +1175,14 @@ Juan Hidalgo</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="Informatización de la gestión de almacén">
-                                [OBJ-0003] 
-Informatización de la gestión de almacén</a>
-</li>
-<li>
 <a href="#OBJ-0002" title="Informatización relativa al proceso de compra-ventas">
                                 [OBJ-0002] 
 Informatización relativa al proceso de compra-ventas</a>
+</li>
+<li>
+<a href="#OBJ-0003" title="Informatización de la gestión de almacén">
+                                [OBJ-0003] 
+Informatización de la gestión de almacén</a>
 </li>
 </td>
 </tr>
@@ -3091,58 +3091,73 @@ Los datos del cliente y los datos de los productos han de estar registrados.</td
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STP-0056" />
+<a name="STP-0157" />
 <td align="center" valign="top">1</td>
 <td>El actor<a href="#ACT-0001" title="Este actor representa un empleado dedicado a la administración de la empresa">
 Usuario Administrativo (ACT-0001)
     </a>
 <em>
-solicita la creación de la nueva factura.</em>
+solicita la creacion de la nueva factura.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0057" />
+<a name="STP-0158" />
 <td align="center" valign="top">2</td>
 <td>El
      
     sistema<em>
-proporciona la plantilla del impreso.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0058" />
-<td align="center" valign="top">3</td>
-<td>El
-     
-    sistema<em>
-solicita el pedido de la venta.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0059" />
-<td align="center" valign="top">4</td>
-<td>El actor<a href="#ACT-0001" title="Este actor representa un empleado dedicado a la administración de la empresa">
-Usuario Administrativo (ACT-0001)
-    </a>
-<em>
-introduce la información con los productos y sus respectivas 
-<br />cantidades.
+solicita el pedido de la venta
+<br />
 <br />
 </em>
 </td>
 </tr>
 <tr>
-<a name="STP-0060" />
-<td align="center" valign="top">5</td>
-<td>El
-     
-    sistema<em>
-pregunta por el tipo de pago</em>
+<a name="STP-0159" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa un empleado dedicado a la administración de la empresa">
+Usuario Administrativo (ACT-0001)
+    </a>
+<em>
+proporciona los datos para identificar el pedido
+<br />
+<br />
+</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0061" />
+<a name="STP-0160" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra los datos del pedido</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0161" />
+<td align="center" valign="top">5</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa un empleado dedicado a la administración de la empresa">
+Usuario Administrativo (ACT-0001)
+    </a>
+<em>
+actualiza los datos de productos y cantidades.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0162" />
 <td align="center" valign="top">6</td>
+<td>El
+     
+    sistema<em>
+pregunta por el tipo de pago
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0163" />
+<td align="center" valign="top">7</td>
 <td>El actor<a href="#ACT-0001" title="Este actor representa un empleado dedicado a la administración de la empresa">
 Usuario Administrativo (ACT-0001)
     </a>
@@ -3151,41 +3166,31 @@ introduce el tipo de pago.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0062" />
-<td align="center" valign="top">7</td>
-<td>El
-     
-    sistema<em>
- solicita la confirmación de los datos.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0063" />
+<a name="STP-0164" />
 <td align="center" valign="top">8</td>
-<td>El actor<a href="#ACT-0001" title="Este actor representa un empleado dedicado a la administración de la empresa">
-Usuario Administrativo (ACT-0001)
-    </a>
-<em>
-confirma.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0064" />
-<td align="center" valign="top">9</td>
 <td>El
      
     sistema<em>
-registra la factura y pregunta si se desea una copia de esta.</em>
+solicita la confirmación de los datos.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0065" />
-<td align="center" valign="top">10</td>
+<a name="STP-0165" />
+<td align="center" valign="top">9</td>
 <td>El actor<a href="#ACT-0001" title="Este actor representa un empleado dedicado a la administración de la empresa">
 Usuario Administrativo (ACT-0001)
     </a>
 <em>
-acepta.</em>
+confirma</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0166" />
+<td align="center" valign="top">10</td>
+<td>El
+     
+    sistema<em>
+registra la factura e imprime una copia de esta.</em>
 </td>
 </tr>
 <tr>
