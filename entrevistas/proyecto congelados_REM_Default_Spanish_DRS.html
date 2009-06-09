@@ -40,16 +40,10 @@
 <h3>Fecha 20/04/2009</h3>
 <p />
 <h3>Preparado para:</h3>
-<a href="#ORG-0001" title="Congelados Carmona S.L.">
-<p>
-Congelados Carmona S.L.</p>
-</a>
+<p><font color="red">?</font></p>
 <p />
 <h3>Preparado por:</h3>
-<a href="#ORG-0002" title="Grupo 14">
-<p>
-Grupo 14</p>
-</a>
+<p><font color="red">?</font></p>
 <p />
 </center>
 <hr size="4" />
@@ -120,6 +114,20 @@ Modelo funcional del sistema (Operaciones del sistema)</a>
 Proceso de Ventas </a>
 </td>
 </tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.1.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0045">
+Facturacion</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.1.2 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0050">
+Modificar Factura</a>
+</td>
+</tr>
 <tr><td />
 <td align="left" valign="top">4.2 </td>
 <td align="left" valign="top" width="100%" colspan="2">
@@ -148,11 +156,39 @@ Buscar Cliente</a>
 Proceso de Almacén</a>
 </td>
 </tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.3.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0048">
+Dar Alta Producto</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.3.2 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0049">
+Añadir Existencias</a>
+</td>
+</tr>
 <tr><td />
 <td align="left" valign="top">4.4 </td>
 <td align="left" valign="top" width="100%" colspan="2">
 <a href="#SEC-0043">
 Proceso de Pedido</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.4.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0046">
+Alta de Pedido</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.4.2 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0047">
+Confirmacion de Entrega </a>
 </td>
 </tr>
 <tr>
@@ -161,34 +197,6 @@ Proceso de Pedido</a>
 <a href="#SEC-0033">
 Prototipo de interfaz de usuario</a>
 </th>
-</tr>
-<tr><td />
-<td align="left" valign="top">5.1 </td>
-<td align="left" valign="top" width="100%" colspan="2">
-<a href="#SEC-0045">
-Subsistema de clientes</a>
-</td>
-</tr>
-<tr><td />
-<td align="left" valign="top">5.2 </td>
-<td align="left" valign="top" width="100%" colspan="2">
-<a href="#SEC-0046">
-Subsistema de pedidos</a>
-</td>
-</tr>
-<tr><td />
-<td align="left" valign="top">5.3 </td>
-<td align="left" valign="top" width="100%" colspan="2">
-<a href="#SEC-0047">
-Subsistema de facturas</a>
-</td>
-</tr>
-<tr><td />
-<td align="left" valign="top">5.4 </td>
-<td align="left" valign="top" width="100%" colspan="2">
-<a href="#SEC-0048">
-Subsistema de existencias</a>
-</td>
 </tr>
 </table>
 <p />
@@ -215,1031 +223,6 @@ Modelo estático del sistema (diagrama de clase)</h1><a name="GRF-0014" />
 <b>Figura 1</b>:
                 
 Diagrama de Clases</p>
-<a name="TYP-0001" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0001</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Persona</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-los datos personales de nuestro Cliente</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0002" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0002</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Cliente</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-todos los datos de nuestro Cliente.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0003" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0003</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Proveedor</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<br />
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0004" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0004</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Repartidor</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0005" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0005</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Comercial</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0006" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0006</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Pedido</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0007" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0007</th>
-<th align="left" valign="top" width="100%" colspan="3">
-LíneaDePedido</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0008" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0008</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Producto</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0009" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0009</th>
-<th align="left" valign="top" width="100%" colspan="3">
-CompraAProveedor</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0010" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0010</th>
-<th align="left" valign="top" width="100%" colspan="3">
-LíneaDeCompra</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0011" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0011</th>
-<th align="left" valign="top" width="100%" colspan="3">
-FacturaCompra</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0012" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0012</th>
-<th align="left" valign="top" width="100%" colspan="3">
-FacturaVenta</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="TYP-0013" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0013</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Factura</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 08/06/2009 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<ul>
-<li>
-<a href="#STK-0003">
-Cecilia Barrera Pérez</a>
-<br />
-</li>
-<li>
-<a href="#STK-0002">
-Jesús Castillo Barrios</a>
-<br />
-</li>
-<li>
-<a href="#STK-0001">
-Miguel Ángel Sánchez Baeza</a>
-<br />
-</li>
-<li>
-<a href="#STK-0004">
-Rafael Sánchez-Matamoros Jiménez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
 <a name="SEC-0031" />
 <h1 align="left">3 
 Modelo dinámico del sistema (diagrama de secuencia)</h1><a name="SEC-0035" />
@@ -1302,7 +285,322 @@ Diagrama Secuencia Alta de Pedido</p>
 <h1 align="left">4 
 Modelo funcional del sistema (Operaciones del sistema)</h1><a name="SEC-0038" />
 <h2 align="left">4.1 
-Proceso de Ventas </h2><a name="SEC-0041" />
+Proceso de Ventas </h2><a name="SEC-0045" />
+<h3 align="left">4.1.1 
+Facturacion</h3><a name="SOP-0010" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0010</th>
+<th align="left" valign="top" width="100%">
+Nueva Factura</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0006" title="Abrir una nueva factura">
+                                [UC-0006] 
+Abrir una nueva factura</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+Genera una nueva Factura en el sistema </td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0133" />
+<code>
+PedidoID  : <code>
+String</code> -- <em>
+identificador correspondiente a un objeto de la clase Pedido</em></code><br />
+<a name="PAR-0134" />
+<code>
+numFacturaID : <code>
+String</code> -- <em>
+es un identificador de Facturacion</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0135" />
+<b>1</b>: 
+					
+Existe un objeto de la clase Pedido en el sistema tal que Pedido = PedidoID.<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0136" />
+<b>1</b>: 
+Se ha creado un objeto de la clase factura al que se le asigna a numFactura el parámetro numFacturaID<br />
+<a name="POS-0137" />
+<b>2</b>: 
+Se ha asociado dicho objeto al objeto de la clase Pedido precisado en la precondición.<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+<code><b>2</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SOP-0011" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0011</th>
+<th align="left" valign="top" width="100%">
+Añadir Forma Pago</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0006" title="Abrir una nueva factura">
+                                [UC-0006] 
+Abrir una nueva factura</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+Registra la forma de pago deseado por el cliente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0138" />
+<code>
+numFacturaID : <code>
+String</code> -- <em>
+identificador de Factura</em></code><br />
+<a name="PAR-0139" />
+<code>
+formaPagoP : <code>
+String</code> -- <em>
+es la forma de pago con la que desea pagar el cliente</em></code><br />
+<a name="PAR-0140" />
+<code>
+pagoP : <code>
+String</code> -- <em></em></code><br />
+<a name="PAR-0141" />
+<code>
+importeP : <code>
+Real</code> -- <em>
+importe total de la venta</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0142" />
+<b>1</b>: 
+					
+Existe un objeto de la clase Factura tal que numFactura = numFacturaID.<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0143" />
+<b>1</b>: 
+Se ha asignado al campo formaPago de la clase factura formaPagoP y al campo importe le asignamos importeP. <br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0050" />
+<h3 align="left">4.1.2 
+Modificar Factura</h3><a name="SOP-0014" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0014</th>
+<th align="left" valign="top" width="100%">
+Modificar Factura</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0007" title="Modificar factura">
+                                [UC-0007] 
+Modificar factura</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+los datos de la facturan quedan modificados si es necesario</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0041" />
 <h2 align="left">4.2 
 Proceso de Clientes</h2><a name="SEC-0039" />
 <h3 align="left">4.2.1 
@@ -1657,33 +955,871 @@ Ninguno</td>
 <p />
 <a name="SEC-0042" />
 <h2 align="left">4.3 
-Proceso de Almacén</h2><a name="SEC-0043" />
+Proceso de Almacén</h2><a name="SEC-0048" />
+<h3 align="left">4.3.1 
+Dar Alta Producto</h3><a name="SOP-0012" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0012</th>
+<th align="left" valign="top" width="100%">
+Añadir Producto</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0009" title="Alta Producto en Almacén">
+                                [UC-0009] 
+Alta Producto  en Almacén</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+se crea un nuevo objeto de la clase Producto .</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0144" />
+<code>
+ProveedorID : <code>
+String</code> -- <em>
+identificador del proveedor</em></code><br />
+<a name="PAR-0145" />
+<code>
+nombreP : <code>
+String</code> -- <em>
+identificador del Producto</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0146" />
+<b>1</b>: 
+					
+No existe un objeto en la clase Producto en el sistema talque su atributo Nombre se corresponda con el parámetro NombreP.<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0147" />
+<b>1</b>: 
+El producto queda registrado en el sistema identificado por Nombre<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0049" />
+<h3 align="left">4.3.2 
+Añadir Existencias</h3><a name="SOP-0013" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0013</th>
+<th align="left" valign="top" width="100%">
+Añadir Existencias</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0010" title="Añadir a existencias">
+                                [UC-0010] 
+Añadir a existencias</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+ Actualiza el Stock de los productos que se añaden al Almacen</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0148" />
+<code>
+ProductoID : <code>
+String</code> -- <em>
+identificador del Producto</em></code><br />
+<a name="PAR-0149" />
+<code>
+StockP : <code>
+Integer</code> -- <em>
+número de existencias que hay en el almacén</em></code><br />
+<a name="PAR-0150" />
+<code>
+fechaCaducidadP : <code>
+Date</code> -- <em>
+fecha de caducidad del Producto </em></code><br />
+<a name="PAR-0152" />
+<code>
+disponibilidad : <code>
+Real</code> -- <em>
+valor booleano que indica si el producto esta disponible o no</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0153" />
+<b>1</b>: 
+					
+El objeto que está identificado por el parámetro ProductoID ha de estar registrado en el sistema previamente.<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0154" />
+<b>1</b>: 
+ El StockP del Producto queda modificado y guardado en el 	sistema.<br />
+<a name="POS-0155" />
+<b>2</b>: 
+En caso de que el atributo disponibilidad del Producto este a False , 	queda modificado a true.<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+<code><b>2</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0043" />
 <h2 align="left">4.4 
-Proceso de Pedido</h2><a name="SEC-0033" />
-<h1 align="left">5 
-Prototipo de interfaz de usuario</h1><a name="SEC-0045" />
-<h2 align="left">5.1 
-Subsistema de clientes</h2><a name="GRF-0021" />
-<p align="center">
-<img src=".\interfaces\imágenes\Gestión de clientes.wmf" title=".\interfaces\imágenes\Gestión de clientes.wmf" />
-</p>
-<p align="center">
-<b>Figura 1</b>:
-                
-Gestión de clientes</p>
-<a name="SEC-0046" />
-<h2 align="left">5.2 
-Subsistema de pedidos</h2><a name="GRF-0022" />
-<p align="center">
-<img src=".\interfaces\imágenes\Gestión de pedidos.wmf" title=".\interfaces\imágenes\Gestión de pedidos.wmf" />
-</p>
-<p align="center">
-<b>Figura 1</b>:
-                
-Gestión de pedidos</p>
+Proceso de Pedido</h2><a name="SEC-0046" />
+<h3 align="left">4.4.1 
+Alta de Pedido</h3><a name="SOP-0004" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0004</th>
+<th align="left" valign="top" width="100%">
+Nuevo Pedido</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0003" title="Dar de alta pedido">
+                                [UC-0003] 
+Dar de alta pedido</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+Generar un nuevo objeto Pedido en el sistema </td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0106" />
+<b>1</b>: 
+Se ha creado un objeto de la clase Pedido, al que el sistema le ha asignado un identificador en el atributo PedidoID.<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SOP-0005" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0005</th>
+<th align="left" valign="top" width="100%">
+Añadir Datos Cliente</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0003" title="Dar de alta pedido">
+                                [UC-0003] 
+Dar de alta pedido</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+Asociar los datos de un objeto de la clase Cliente con los de un objeto de la clase Pedido</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0107" />
+<code>
+NombreP : <code>
+String</code> -- <em>
+identificador de Cliente</em></code><br />
+<a name="PAR-0109" />
+<code>
+PedidoID : <code>
+Integer</code> -- <em>
+identificador de Pedido</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0110" />
+<b>1</b>: 
+					
+Existe un objeto de la clase Cliente en el sistema yal que su atributo Nombre se corresponde con el dato NombreP pasado como parámetro.<br />
+<a name="PRE-0114" />
+<b>2</b>: 
+					
+Existe un objeto de la clase Pedido en el sistema yal que su atributo Pedido se corresponde con el dato PedidoP pasado como parámetro.<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+<code><b>2</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0115" />
+<b>1</b>: 
+Se ha asociado el objeto de la clase Cliente al objeto de la clase Pedido, precisados ambos en la precondicion<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SOP-0006" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0006</th>
+<th align="left" valign="top" width="100%">
+Añadir Datos Producto</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0003" title="Dar de alta pedido">
+                                [UC-0003] 
+Dar de alta pedido</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+Asociar los datos de un Producto con un objeto de la clase Pedido.</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0117" />
+<code>
+NombreP : <code>
+String</code> -- <em>
+identificador del Producto</em></code><br />
+<a name="PAR-0119" />
+<code>
+StockP : <code>
+Integer</code> -- <em>
+cantidad de Producto que hay en el almacén</em></code><br />
+<a name="PAR-0120" />
+<code>
+PedidoID : <code>
+Integer</code> -- <em>
+Identificador del Pedido</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0121" />
+<b>1</b>: 
+					
+Existe un objeto en la clase Producto en el sistema tal que su atrbuto Nombre se corresponde con el dato NombreP pasado como parámetro.<br />
+<a name="PRE-0122" />
+<b>2</b>: 
+					
+El atributo de la clase Producto estaDisponible correspondiente al objeto identificado con el parámetro NombreP que se pasa, ha de estar a cierto.<br />
+<a name="PRE-0123" />
+<b>3</b>: 
+					
+Existe un objeto de la clase Pedido en el sistema tal que su atributo 
+<br />Pedido se corresponde con el dato del PedidoID pasado como parámetro.<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+<code><b>2</b>: true</code><br />
+<code><b>3</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0124" />
+<b>1</b>: 
+Se ha asociado el objeto de la clase Produnto indicado anteriormente con un objeto de la clase Pedido, precisados ambos en la precondición.<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SOP-0007" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0007</th>
+<th align="left" valign="top" width="100%">
+Fin Pedido</th>
+</tr>
+<th align="left" valign="top">Tipo del resultado</th>
+<td align="left" valign="top">
+<code>Muestra el valos de los datos del Cliente y de los productos asociados con el objeto Pedido.</code>
+</td>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0003" title="Dar de alta pedido">
+                                [UC-0003] 
+Dar de alta pedido</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+finaliza la creacion de un Pedido.</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0125" />
+<code>
+PedidoID : <code>
+Integer</code> -- <em>
+identificador del Pedido</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0126" />
+<b>1</b>: 
+					
+Existe un objeto de la clase Pedido tal que su atributo Pedido se corresponde con el campo PedidoID pasado como parámetro en la operación<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
 <a name="SEC-0047" />
-<h2 align="left">5.3 
-Subsistema de facturas</h2><a name="SEC-0048" />
-<h2 align="left">5.4 
-Subsistema de existencias</h2></body>
+<h3 align="left">4.4.2 
+Confirmacion de Entrega </h3><a name="SOP-0008" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0008</th>
+<th align="left" valign="top" width="100%">
+Modificar Pedido</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0005" title="Confirmación de entrega">
+                                [UC-0005] 
+Confirmación de entrega</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0127" />
+<code>
+PedidoID : <code>
+Integer</code> -- <em>
+identificador del Pedido</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0128" />
+<b>1</b>: 
+					
+Existe un objeto de la clase Pedido en el sistema tal que su atributo Pedido se corresponde con el dato PedidoID pasado como parámetro<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SOP-0009" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0009</th>
+<th align="left" valign="top" width="100%">
+Modificar Estado</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#UC-0005" title="Confirmación de entrega">
+                                [UC-0005] 
+Confirmación de entrega</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+Cambia el estado del objeto de la clase Pedido identificado por el parámetro PedidoID</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0129" />
+<code>
+PedidoID : <code>
+Integer</code> -- <em>
+identificador del Pedido</em></code><br />
+<a name="PAR-0130" />
+<code>
+estaEntregado : <code>
+Real</code> -- <em>
+indica si esta entregado o no el Pedido</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0131" />
+<b>1</b>: 
+					
+Existe un objeto en la clase Pedido en el sistema tal que su atributo Pedido se corresponde con el dato PedidoID pasado como parámetro<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0132" />
+<b>1</b>: 
+El estado del PedidoID queda modificado y se establece a true<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>1</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0033" />
+<h1 align="left">5 
+Prototipo de interfaz de usuario</h1></body>
 </html>

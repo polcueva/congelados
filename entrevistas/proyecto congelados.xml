@@ -1839,53 +1839,62 @@ La factura queda registrada y asociada al cliente.</rem:postcondition>
 </rem:value>
 <rem:timeUnit value = "TUV-0007"/>
 </rem:frequency>
-<rem:step oid = "STP-0056">
+<rem:step oid = "STP-0157">
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-solicita la creación de la nueva factura.</rem:description>
+solicita la creacion de la nueva factura.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0057">
+<rem:step oid = "STP-0158">
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-proporciona la plantilla del impreso.</rem:description>
+solicita el pedido de la venta<br/><br/></rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0058">
+<rem:step oid = "STP-0159">
 <rem:number>3</rem:number>
-<rem:systemAction>
-<rem:description>
-solicita el pedido de la venta.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0059">
-<rem:number>4</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-introduce la información con los productos y sus respectivas <br/>cantidades.<br/></rem:description>
+proporciona los datos para identificar el pedido<br/><br/></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0060">
-<rem:number>5</rem:number>
+<rem:step oid = "STP-0160">
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-pregunta por el tipo de pago</rem:description>
+muestra los datos del pedido</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0061">
+<rem:step oid = "STP-0161">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+actualiza los datos de productos y cantidades.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0162">
 <rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+pregunta por el tipo de pago<br/></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0163">
+<rem:number>7</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 introduce el tipo de pago.</rem:description>
@@ -1893,39 +1902,30 @@ introduce el tipo de pago.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0062">
-<rem:number>7</rem:number>
-<rem:systemAction>
-<rem:description>
- solicita la confirmación de los datos.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0063">
+<rem:step oid = "STP-0164">
 <rem:number>8</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-confirma.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0064">
-<rem:number>9</rem:number>
 <rem:systemAction>
 <rem:description>
-registra la factura y pregunta si se desea una copia de esta.</rem:description>
+solicita la confirmación de los datos.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0065">
-<rem:number>10</rem:number>
+<rem:step oid = "STP-0165">
+<rem:number>9</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-acepta.</rem:description>
+confirma</rem:description>
 </rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0166">
+<rem:number>10</rem:number>
+<rem:systemAction>
+<rem:description>
+registra la factura e imprime una copia de esta.</rem:description>
+</rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
@@ -2928,8 +2928,6 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno
 </rem:comments>
-	 <rem:preparedFor organizations = "ORG-0001 "/>
-	 <rem:preparedBy organizations = "ORG-0002 "/>
 <rem:section
  oid = "SEC-0029">
 <rem:name>
@@ -2952,7 +2950,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0016">
 <rem:name>
-Introducción</rem:name>
+Descripción</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3007,279 +3005,6 @@ Ninguno</rem:comments>
 <![CDATA[.\diagrama de clases bien echo.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:objectType
- oid = "TYP-0001">
-<rem:name>
-Persona</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-los datos personales de nuestro Cliente</rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0002">
-<rem:name>
-Cliente</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-todos los datos de nuestro Cliente.</rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0003">
-<rem:name>
-Proveedor</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<br/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0004">
-<rem:name>
-Repartidor</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0005">
-<rem:name>
-Comercial</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0006">
-<rem:name>
-Pedido</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0007">
-<rem:name>
-LíneaDePedido</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0008">
-<rem:name>
-Producto</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0009">
-<rem:name>
-CompraAProveedor</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0010">
-<rem:name>
-LíneaDeCompra</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0011">
-<rem:name>
-FacturaCompra</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0012">
-<rem:name>
-FacturaVenta</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0013">
-<rem:name>
-Factura</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>8</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
 </rem:section>
 <rem:section
  oid = "SEC-0031">
@@ -3539,6 +3264,203 @@ Proceso de Ventas </rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>4.1 </rem:number>
+<rem:section
+ oid = "SEC-0045">
+<rem:name>
+Facturacion</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.1.1 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0010">
+<rem:name>
+Nueva Factura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Genera una nueva Factura en el sistema </rem:description>
+<rem:parameter oid = "PAR-0133" baseType = "PVT-0004">
+<rem:name>
+PedidoID </rem:name>
+<rem:description>
+identificador correspondiente a un objeto de la clase Pedido</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0134" baseType = "PVT-0004">
+<rem:name>
+numFacturaID</rem:name>
+<rem:description>
+es un identificador de Facturacion</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0135">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Existe un objeto de la clase Pedido en el sistema tal que Pedido = PedidoID.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0136">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Se ha creado un objeto de la clase factura al que se le asigna a numFactura el parámetro numFacturaID</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+<rem:postconditionExpression oid = "POS-0137">
+<rem:name>2</rem:name>
+<rem:expression>
+<rem:natural>
+Se ha asociado dicho objeto al objeto de la clase Pedido precisado en la precondición.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+</rem:systemOperation>
+<rem:systemOperation
+ oid = "SOP-0011">
+<rem:name>
+Añadir Forma Pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Registra la forma de pago deseado por el cliente</rem:description>
+<rem:parameter oid = "PAR-0138" baseType = "PVT-0004">
+<rem:name>
+numFacturaID</rem:name>
+<rem:description>
+identificador de Factura</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0139" baseType = "PVT-0004">
+<rem:name>
+formaPagoP</rem:name>
+<rem:description>
+es la forma de pago con la que desea pagar el cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0140" baseType = "PVT-0004">
+<rem:name>
+pagoP</rem:name>
+<rem:description>
+</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0141" baseType = "PVT-0001">
+<rem:name>
+importeP</rem:name>
+<rem:description>
+importe total de la venta</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0142">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Existe un objeto de la clase Factura tal que numFactura = numFacturaID.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0143">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Se ha asignado al campo formaPago de la clase factura formaPagoP y al campo importe le asignamos importeP. </rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+</rem:systemOperation>
+</rem:section>
+<rem:section
+ oid = "SEC-0050">
+<rem:name>
+Modificar Factura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.1.2 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0014">
+<rem:name>
+Modificar Factura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+los datos de la facturan quedan modificados si es necesario</rem:description>
+</rem:systemOperation>
+</rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0041">
@@ -3837,6 +3759,184 @@ Proceso de Almacén</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>4.3 </rem:number>
+<rem:section
+ oid = "SEC-0048">
+<rem:name>
+Dar Alta Producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.3.1 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0012">
+<rem:name>
+Añadir Producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+se crea un nuevo objeto de la clase Producto .</rem:description>
+<rem:parameter oid = "PAR-0144" baseType = "PVT-0004">
+<rem:name>
+ProveedorID</rem:name>
+<rem:description>
+identificador del proveedor</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0145" baseType = "PVT-0004">
+<rem:name>
+nombreP</rem:name>
+<rem:description>
+identificador del Producto</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0146">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+No existe un objeto en la clase Producto en el sistema talque su atributo Nombre se corresponda con el parámetro NombreP.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0147">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+El producto queda registrado en el sistema identificado por Nombre</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+</rem:systemOperation>
+</rem:section>
+<rem:section
+ oid = "SEC-0049">
+<rem:name>
+Añadir Existencias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.3.2 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0013">
+<rem:name>
+Añadir Existencias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+ Actualiza el Stock de los productos que se añaden al Almacen</rem:description>
+<rem:parameter oid = "PAR-0148" baseType = "PVT-0004">
+<rem:name>
+ProductoID</rem:name>
+<rem:description>
+identificador del Producto</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0149" baseType = "PVT-0002">
+<rem:name>
+StockP</rem:name>
+<rem:description>
+número de existencias que hay en el almacén</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0150" baseType = "PVT-0005">
+<rem:name>
+fechaCaducidadP</rem:name>
+<rem:description>
+fecha de caducidad del Producto </rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0152" baseType = "PVT-0001">
+<rem:name>
+disponibilidad</rem:name>
+<rem:description>
+valor booleano que indica si el producto esta disponible o no</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0153">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+El objeto que está identificado por el parámetro ProductoID ha de estar registrado en el sistema previamente.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0154">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+ El StockP del Producto queda modificado y guardado en el 	sistema.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+<rem:postconditionExpression oid = "POS-0155">
+<rem:name>2</rem:name>
+<rem:expression>
+<rem:natural>
+En caso de que el atributo disponibilidad del Producto este a False , 	queda modificado a true.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+</rem:systemOperation>
+</rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0043">
@@ -3856,6 +3956,359 @@ Proceso de Pedido</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>4.4 </rem:number>
+<rem:section
+ oid = "SEC-0046">
+<rem:name>
+Alta de Pedido</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.4.1 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0004">
+<rem:name>
+Nuevo Pedido</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Generar un nuevo objeto Pedido en el sistema </rem:description>
+<rem:postconditionExpression oid = "POS-0106">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Se ha creado un objeto de la clase Pedido, al que el sistema le ha asignado un identificador en el atributo PedidoID.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+</rem:systemOperation>
+<rem:systemOperation
+ oid = "SOP-0005">
+<rem:name>
+Añadir Datos Cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Asociar los datos de un objeto de la clase Cliente con los de un objeto de la clase Pedido</rem:description>
+<rem:parameter oid = "PAR-0107" baseType = "PVT-0004">
+<rem:name>
+NombreP</rem:name>
+<rem:description>
+identificador de Cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0109" baseType = "PVT-0002">
+<rem:name>
+PedidoID</rem:name>
+<rem:description>
+identificador de Pedido</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0110">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Existe un objeto de la clase Cliente en el sistema yal que su atributo Nombre se corresponde con el dato NombreP pasado como parámetro.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:preconditionExpression oid = "PRE-0114">
+<rem:name>2</rem:name>
+<rem:expression>
+<rem:natural>
+Existe un objeto de la clase Pedido en el sistema yal que su atributo Pedido se corresponde con el dato PedidoP pasado como parámetro.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0115">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Se ha asociado el objeto de la clase Cliente al objeto de la clase Pedido, precisados ambos en la precondicion</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+</rem:systemOperation>
+<rem:systemOperation
+ oid = "SOP-0006">
+<rem:name>
+Añadir Datos Producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Asociar los datos de un Producto con un objeto de la clase Pedido.</rem:description>
+<rem:parameter oid = "PAR-0117" baseType = "PVT-0004">
+<rem:name>
+NombreP</rem:name>
+<rem:description>
+identificador del Producto</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0119" baseType = "PVT-0002">
+<rem:name>
+StockP</rem:name>
+<rem:description>
+cantidad de Producto que hay en el almacén</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0120" baseType = "PVT-0002">
+<rem:name>
+PedidoID</rem:name>
+<rem:description>
+Identificador del Pedido</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0121">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Existe un objeto en la clase Producto en el sistema tal que su atrbuto Nombre se corresponde con el dato NombreP pasado como parámetro.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:preconditionExpression oid = "PRE-0122">
+<rem:name>2</rem:name>
+<rem:expression>
+<rem:natural>
+El atributo de la clase Producto estaDisponible correspondiente al objeto identificado con el parámetro NombreP que se pasa, ha de estar a cierto.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:preconditionExpression oid = "PRE-0123">
+<rem:name>3</rem:name>
+<rem:expression>
+<rem:natural>
+Existe un objeto de la clase Pedido en el sistema tal que su atributo <br/>Pedido se corresponde con el dato del PedidoID pasado como parámetro.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0124">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Se ha asociado el objeto de la clase Produnto indicado anteriormente con un objeto de la clase Pedido, precisados ambos en la precondición.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+</rem:systemOperation>
+<rem:systemOperation
+ oid = "SOP-0007">
+<rem:name>
+Fin Pedido</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+finaliza la creacion de un Pedido.</rem:description>
+<rem:resultType>Muestra el valos de los datos del Cliente y de los productos asociados con el objeto Pedido.</rem:resultType>
+<rem:parameter oid = "PAR-0125" baseType = "PVT-0002">
+<rem:name>
+PedidoID</rem:name>
+<rem:description>
+identificador del Pedido</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0126">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Existe un objeto de la clase Pedido tal que su atributo Pedido se corresponde con el campo PedidoID pasado como parámetro en la operación</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+</rem:systemOperation>
+</rem:section>
+<rem:section
+ oid = "SEC-0047">
+<rem:name>
+Confirmacion de Entrega </rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.4.2 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0008">
+<rem:name>
+Modificar Pedido</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+<rem:tbd/></rem:description>
+<rem:parameter oid = "PAR-0127" baseType = "PVT-0002">
+<rem:name>
+PedidoID</rem:name>
+<rem:description>
+identificador del Pedido</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0128">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Existe un objeto de la clase Pedido en el sistema tal que su atributo Pedido se corresponde con el dato PedidoID pasado como parámetro</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+</rem:systemOperation>
+<rem:systemOperation
+ oid = "SOP-0009">
+<rem:name>
+Modificar Estado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Cambia el estado del objeto de la clase Pedido identificado por el parámetro PedidoID</rem:description>
+<rem:parameter oid = "PAR-0129" baseType = "PVT-0002">
+<rem:name>
+PedidoID</rem:name>
+<rem:description>
+identificador del Pedido</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0130" baseType = "PVT-0001">
+<rem:name>
+estaEntregado</rem:name>
+<rem:description>
+indica si esta entregado o no el Pedido</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0131">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+Existe un objeto en la clase Pedido en el sistema tal que su atributo Pedido se corresponde con el dato PedidoID pasado como parámetro</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0132">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+El estado del PedidoID queda modificado y se establece a true</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+</rem:systemOperation>
+</rem:section>
 </rem:section>
 </rem:section>
 <rem:section
@@ -4025,6 +4478,39 @@ Ninguno
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "SOP-0003"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0004"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0005"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0006"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0007"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0008"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0009"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0010"  target = "UC-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0011"  target = "UC-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0012"  target = "UC-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0013"  target = "UC-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "SOP-0014"  target = "UC-0007" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
