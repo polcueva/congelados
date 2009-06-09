@@ -3133,7 +3133,7 @@ Diagrama Secuencia Facturación</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia de Facturacion.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de Facturacion.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -3154,7 +3154,28 @@ Diagrama Secuencias Confirmación de Entrega</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia confirmacion de entrega de pedido.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia confirmacion de entrega de pedido.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0021">
+<rem:name>
+Diagrama Secuencia Modificar <rem:ref oid="GLO-0019">Factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de moficar Factura.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -3195,7 +3216,7 @@ Diagrama Secuencias Alta Clientes</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta cliente.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta cliente.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -3216,7 +3237,7 @@ Diagrama Secuencia Buscar Cliente</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia buscar cliente.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia buscar cliente.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -3257,7 +3278,28 @@ Diagrama Secuencia Alta Producto en Almacén</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta de producto en almacen.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta de producto en almacen.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0022">
+<rem:name>
+Diagrama Secuencia Añadir Existencias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de añadir existencias.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -3297,7 +3339,7 @@ Diagrama Secuencia Alta de <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta de pedido.jpg]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta de pedido.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -4433,13 +4475,13 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
+<rem:trace source = "IRQ-0002"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0001"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0002" >
+<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0003"  target = "OBJ-0002" >
