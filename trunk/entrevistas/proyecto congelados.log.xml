@@ -2324,126 +2324,61 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SOP-0003</rem:owner><rem:date>
+<rem:owner>SEC-0052</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>9</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] del hijo nº3 actualizada: [1] -> [2]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PAR-0189] productoID : String)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Expression.Natural] del hijo nº7 actualizada: [El resultado de esta operacion es:
-un atributo numFactura asociado a la clase Factura de venta.
-un atributo formaPago asociado a la clase Factura de venta.
-un atributo estaPagado asociado a la clase Factura de venta.
-un atributo importe asociado a la clase Factura de venta.
-un atributo fechaVenta asociado a la clase Factura de venta.
-un atributo nombreP asociado a la clase Pedido.
-un atributo cantidadP asociado a la clase Pedido.
-un atributo P asociado a la clase Pedido.
-un atributo P asociado a la clase Pedido.] -> [El resultado de esta operacion es:
-un atributo numFactura asociado a la clase Factura de venta.
-un atributo formaPago asociado a la clase Factura de venta.
-un atributo estaPagado asociado a la clase Factura de venta.
-un atributo importe asociado a la clase Factura de venta.
-un atributo fechaVenta asociado a la clase Factura de venta.
-un atributo nombreP asociado a la clase Pedido.
-un atributo stockP asociado a la clase Pedido.
-un atributo estaEntregadoP asociado a la clase Pedido.
-un atributo P asociado a la clase Pedido.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 ([POS-0182] 2)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0003</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([POS-0184] 1)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0003</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] del hijo nº3 actualizada: [2] -> [(sin nombre)]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0010</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([POS-0181] 3)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Expression.Natural] del hijo nº7 actualizada: [El resultado de esta operacion es:
-un atributo numFactura asociado a la clase Factura de venta.
-un atributo formaPago asociado a la clase Factura de venta.
-un atributo estaPagado asociado a la clase Factura de venta.
-un atributo importe asociado a la clase Factura de venta.
-un atributo fechaVenta asociado a la clase Factura de venta.
-un atributo nombreP asociado a la clase Pedido.
-un atributo stockP asociado a la clase Pedido.
-un atributo estaEntregadoP asociado a la clase Pedido.
-un atributo P asociado a la clase Pedido.] -> [El resultado de esta operacion es:
-un atributo numFactura asociado a la clase Factura de venta.
-un atributo formaPago asociado a la clase Factura de venta.
-un atributo estaPagado asociado a la clase Factura de venta.
-un atributo importe asociado a la clase Factura de venta.
-un atributo fechaVenta asociado a la clase Factura de venta.
-un atributo nombreP asociado a la clase Pedido.
-un atributo cantidadP asociado a la clase Pedido.
-un atributo estaEntregadoP asociado a la clase Pedido.
-un atributo nombreC asociado a la clase Cliente.
-un atributo apellidosC asociado a la clase Cliente.
-un atributo domicilioC asociado a la clase Cliente.
-un atributo localidadC asociado a la clase Cliente.
-un atributo CPC asociado a la clase Cliente.
-un atributo provinciaC asociado a la clase Cliente.
-un atributo fechaNacimientoC asociado a la clase Cliente.
-un atributo telefonoC asociado a la clase Cliente.
-un atributo paisC asociado a la clase Cliente.
-un atributo emailC asociado a la clase Cliente.
-un atributo DNI asociado a la clase Cliente.
-]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([MET-0002] Entrevista con los usuarios 2)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
+<rem:owner>MET-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0052</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>9</rem:day>
@@ -2452,243 +2387,119 @@ un atributo DNI asociado a la clase Cliente.
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SOP-0003</rem:owner><rem:date>
+<rem:owner>SEC-0051</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>9</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Expression.Natural] del hijo nº3 actualizada: [el resultado de realizar esta operacion es :
-un atributo nombreC asociado a la clase Cliente.
-un atributo apellidosC asociado a la clase Cliente.
-un atributo domicilioC asociado a la clase Cliente.
-un atributo localidadC asociado a la clase Cliente.
-un atributo CPC asociado a la clase Cliente.
-un atributo provinciaC asociado a la clase Cliente.
-un atributo fechaNacimientoC asociado a la clase Cliente.
-un atributo telefonoC asociado a la clase Cliente.
-un atributo paisC asociado a la clase Cliente.
-un atributo emailC asociado a la clase Cliente.
-un atributo DNI asociado a la clase Cliente.] -> []]]></rem:description>
+<rem:description><![CDATA[Eliminado hijo nº1 ([SEC-0052] Actas y Entrevista)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SOP-0003</rem:owner><rem:date>
+<rem:owner>SEC-0051</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>9</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([POS-0183] 1)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0052] Actas y Entrevista)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>MET-0001</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0051] Actas y entrevistas  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0051</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0051]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SOP-0003</rem:owner><rem:date>
+<rem:owner>MET-0001</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>9</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado hijo nº3 ([POS-0183] (sin nombre))]]></rem:description>
+<rem:description><![CDATA[Eliminada fuente [STK-0006] Juan Hidalgo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0052] Actas y Entrevista con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SOP-0007</rem:owner><rem:date>
+<rem:owner>SEC-0052</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>9</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Expression.Natural] del hijo nº3 actualizada: [Se ha creado un objeto de la clase PEdido al que sele asigna como identificador PedidoID] -> [Se ha creado un objeto de la clase Pedido al que sele asigna como identificador PedidoID]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0003</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([POS-0185] 2)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0012</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([POS-0187] 2)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0012</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([PAR-0186] precioP : Real)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0007</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Expression.Natural] del hijo nº4 actualizada: [el resultado de realizar la operacion es:
-un atributo nombreP asociado a la clase Pedido.
-un atributo cantidadP asociado a la clase Pedido.
-un atributo estaEntregadoP asociado a la clase Pedido.
-un atributo nombreC asociado a la clase Cliente.
-un atributo apellidosC asociado a la clase Cliente.
-un atributo domicilioC asociado a la clase Cliente.
-un atributo localidadC asociado a la clase Cliente.
-un atributo CPC asociado a la clase Cliente.
-un atributo provinciaC asociado a la clase Cliente.
-] -> [el resultado de realizar la operacion es:
-un atributo nombreP asociado a la clase Pedido.
-un atributo cantidadP asociado a la clase Pedido.
-un atributo estaEntregadoP asociado a la clase Pedido.
-un atributo nombreC asociado a la clase Cliente.
-un atributo apellidosC asociado a la clase Cliente.
-un atributo domicilioC asociado a la clase Cliente.
-un atributo localidadC asociado a la clase Cliente.
-un atributo CPC asociado a la clase Cliente.
-un atributo provinciaC asociado a la clase Cliente.
-un atributo telefonoC asociado a la clase Cliente.
-un atributo paisC asociado a la clase Cliente.
-un atributo emailC asociado a la clase Cliente.
-un atributo DNI asociado a la clase Cliente.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PAR-0188] proveedorID : String)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([POS-0192] 1)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([PRE-0190] 1)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0004</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([PRE-0195] 1)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0013</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº8 ([POS-0193] 3)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0001] Miguel Ángel Sánchez Baeza]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0002] Jesús Castillo Barrios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0003] Cecilia Barrera Pérez]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0004] Rafael Sánchez-Matamoros Jiménez]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0005] Francisco Jose Barrera Gonzalez]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0006] Juan Hidalgo]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0004</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PAR-0194] fechaEntrega : Date)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0007</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([POS-0197] 1)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0007</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([POS-0198] 2)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0008</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([POS-0199] 1 )]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([MET-0001] Entrevista 1)]]></rem:description>
 </rem:change>
 </rem:log>
