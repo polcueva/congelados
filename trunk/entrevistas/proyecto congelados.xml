@@ -51,7 +51,7 @@ Negocio del Cliente</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El proyecto esta basado en una empresa llamada Congelados Carmona S.L. Fue fundada sobre el año 92. En sus inicios esta empresa estaba situada en la Ctra. Nacional IV, km.509, 41410 Carmona (Sevilla). Posteriormente se traslado a una nave industrial en el Polígono El Pilero  C/Cerrajero 2 también situado en Carmona.<br/> Esta nave está dotada de una oficina, una zona para la venta al público, una cámara de congelación y otra de refrigeración con acceso privado para los trabajadores. <br/>Congelados Carmona es una empresa encargada de ofrecer una gran variedad de productos, la mayoría del departamento de congelados y especialidades para restaurante, así como también se encarga de su servicio al público. Cuenta con una serie de proveedores que visitan el establecimiento y ofrecen productos nuevos, realizan compras a estos y ellos proponen la forma de pago. Hay distintas formas de pago a estos proveedores, al contado, a reposición, y  con otros acuerdos (al mes, a 3 meses,…), estas formas de pago depende de la cantidad del pedido y del propio proveedor.<br/><br/>A lo largo de este documento vamos a describir los procesos relativos a la preventa y a la venta que realizan los trabajadores, así como la distribución del producto. Los trabajadores disponen cada uno de una cartera de clientes y estos los visitan, normalmente por las mañanas, por las tardes cargan las mercancías y preparan las facturas, al día siguiente la mercancía es distribuida y las formas de pago, al igual que los proveedores, dependen del cliente. Normalmente si el cliente lleva tiempo confiando en sus servicios, la empresa ofrece más facilidades de pago, y también dependiendo de la cantidad de la mercancía se acuerda una forma de pago u otra.<br/>Esta empresa para garantizar un servicio optimo y para que los pedidos lleguen a tiempo y en buenas condiciones dispone de 4 furgones con cámara isotérmica. Por otra parte, otro servicio que presta esta empresa es la venta al público. Hay una zona de autoservicio en la que cualquier persona puede comprar y será atendida por una cajera que le cobrará al contado. El establecimiento está abierto de lunes a viernes de 10:00 a 20:00 de la tarde. La plantilla de trabajadores consta de dos repartidores, cinco vendedores, una dependienta y un administrativo. <br/></rem:text>
+<rem:text>El proyecto esta basado en una <rem:ref oid="GLO-0022">empresa</rem:ref> llamada Congelados Carmona S.L. Fue fundada sobre el año 92. En sus inicios esta <rem:ref oid="GLO-0022">empresa</rem:ref> estaba situada en la Ctra. Nacional IV, km.509, 41410 Carmona (Sevilla). Posteriormente se traslado a una <rem:ref oid="GLO-0010">nave industrial</rem:ref> en el <rem:ref oid="GLO-0023">Polígono</rem:ref> El Pilero  C/Cerrajero 2 también situado en Carmona.<br/> Esta nave está dotada de una <rem:ref oid="GLO-0024">oficina</rem:ref>, una zona para la venta al público, una cámara de congelación y otra de refrigeración con acceso privado para los trabajadores. <br/>Congelados Carmona es una <rem:ref oid="GLO-0022">empresa</rem:ref> encargada de ofrecer una gran variedad de productos, la mayoría del departamento de congelados y especialidades para restaurante, así como también se encarga de su servicio al público. Cuenta con una serie de proveedores que visitan el establecimiento y ofrecen productos nuevos, realizan compras a estos y ellos proponen la forma de pago. Hay distintas formas de pago a estos proveedores, al contado, a reposición, y  con otros acuerdos (al mes, a 3 meses,...), estas formas de pago depende de la cantidad del <rem:ref oid="GLO-0026">pedido</rem:ref> y del propio <rem:ref oid="GLO-0015">proveedor</rem:ref>.<br/><br/>A lo largo de este documento vamos a describir los procesos relativos a la <rem:ref oid="GLO-0008">preventa</rem:ref> y a la venta que realizan los trabajadores, así como la distribución del producto. Los trabajadores disponen cada uno de una <rem:ref oid="GLO-0007">cartera de clientes</rem:ref> y estos los visitan, normalmente por las mañanas, por las tardes cargan las mercancías y preparan las facturas, al día siguiente las mercancías son distribuidas. Las formas de pago, al igual que los proveedores, dependen del cliente. Normalmente si el cliente lleva tiempo confiando en sus servicios, la <rem:ref oid="GLO-0022">empresa</rem:ref> ofrece más facilidades de pago, y también dependiendo de la cantidad de la <rem:ref oid="GLO-0027">mercancía</rem:ref>, se acuerda una forma de pago u otra.<br/>Esta <rem:ref oid="GLO-0022">empresa</rem:ref> dispone de cuatro furgonetas con cámaras isotérmicas para garantizar un servicio óptimo y que los pedidos lleguen a tiempo. La plantilla de empleados consta de dos repartidores, cinco comerciales y un administrativo. <br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -102,7 +102,7 @@ Congelados Carmona S.L.</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Es la empresa sobre la cual se realizará la practica.Esta empresa se dedica a la venta de productos alimenticios congelados,para el sector de la hosteleria principalmente</rem:comments>
+Es la <rem:ref oid="GLO-0022">empresa</rem:ref> sobre la cual se realizará la practica.Esta <rem:ref oid="GLO-0022">empresa</rem:ref> se dedica a la venta de productos alimenticios congelados,para el sector de la hosteleria principalmente</rem:comments>
 <rem:address>Poligono el Pliego,C/Cerrajero 2</rem:address>
 <rem:telephone>954191069</rem:telephone>
 <rem:fax>954191069</rem:fax>
@@ -121,7 +121,7 @@ Grupo 14</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Grupo de trabajo de ISG1 que realiza la practica de la empresa:Congelados Carmona S.L.</rem:comments>
+Grupo de trabajo de ISG1 que realiza la practica de la <rem:ref oid="GLO-0022">empresa</rem:ref>:Congelados Carmona S.L.</rem:comments>
 <rem:address>ETSII Informática<br/>Avda.Reina Mercedes, s/n<br/>41012 Sevilla</rem:address>
 <rem:telephone>635056881</rem:telephone>
 <rem:fax></rem:fax>
@@ -234,7 +234,7 @@ Francisco Jose Barrera Gonzalez</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Dueño de la empresa<br/></rem:comments>
+Dueño de la <rem:ref oid="GLO-0022">empresa</rem:ref><br/></rem:comments>
 <rem:stakeholderRole>Colaborador</rem:stakeholderRole>
 <rem:isCustomer/>
 <rem:worksFor organization = "ORG-0001"/>
@@ -570,7 +570,7 @@ Ninguno</rem:comments>
 <rem:objective
  oid = "OBJ-0001">
 <rem:name>
-Cartera de Clientes</rem:name>
+<rem:ref oid="GLO-0007">Cartera de Clientes</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -589,7 +589,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-Realizar un seguimiento a la cartera de clientes (buscando y almacenando la información relevante a cada cliente)</rem:description>
+Realizar un seguimiento a la <rem:ref oid="GLO-0007">cartera de clientes</rem:ref> (buscando y almacenando la información relevante a cada cliente)</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0002">
@@ -637,7 +637,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0002"/>
 <rem:description>
-avisarnos cuándo un producto que ofrecemos a los clientes está al límite puesto por nuestra parte a punto de agotarse en existencias para  iniciar el proceso de compras en stock, además el sistema ha de indicarnos cuando un producto hay que darle salida del almacén ya que tienen un período de caducidad o cuando dicho período ha sido superado y hay que retirarlo del almacén </rem:description>
+avisarnos cuándo un producto que ofrecemos a los clientes está al límite puesto por nuestra parte a punto de agotarse en existencias para  iniciar el proceso de compras en <rem:ref oid="GLO-0012">stock</rem:ref>, además el sistema ha de indicarnos cuando un producto hay que darle salida del almacén ya que tienen un período de caducidad o cuando dicho período ha sido superado y hay que retirarlo del almacén </rem:description>
 </rem:objective>
 </rem:section>
 <rem:section
@@ -885,7 +885,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
-proveedores de la empresa</rem:relevantConcept>
+proveedores de la <rem:ref oid="GLO-0022">empresa</rem:ref></rem:relevantConcept>
 <rem:averageLifeTime>
 <rem:value>5</rem:value>
 <rem:timeUnit value = "TUV-0002"/>
@@ -951,7 +951,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
-comerciales de la empresa</rem:relevantConcept>
+comerciales de la <rem:ref oid="GLO-0022">empresa</rem:ref></rem:relevantConcept>
 <rem:averageLifeTime>
 <rem:value>5</rem:value>
 <rem:timeUnit value = "TUV-0002"/>
@@ -1287,7 +1287,7 @@ Usuario Administrativo</rem:name>
 <rem:sources stakeholders ="STK-0005 STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>un empleado dedicado a la administración de la empresa</rem:actorRole>
+<rem:actorRole>un empleado dedicado a la administración de la <rem:ref oid="GLO-0022">empresa</rem:ref></rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0002">
@@ -1311,7 +1311,7 @@ Ninguno</rem:comments>
 <rem:actor
  oid = "ACT-0003">
 <rem:name>
-Comercial</rem:name>
+<rem:ref oid="GLO-0018">Comercial</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1325,12 +1325,12 @@ Comercial</rem:name>
 <rem:sources stakeholders ="STK-0005 STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>a un comercial para la captación de Clientes y Pedidos</rem:actorRole>
+<rem:actorRole>a un <rem:ref oid="GLO-0018">comercial</rem:ref> para la captación de Clientes y Pedidos</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0004">
 <rem:name>
-Repartidor</rem:name>
+<rem:ref oid="GLO-0028">Repartidor</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1344,7 +1344,7 @@ Repartidor</rem:name>
 <rem:sources stakeholders ="STK-0005 STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>a un Repartidor de la empresa para la Confirmación de Entrega de los Pedidos</rem:actorRole>
+<rem:actorRole>a un <rem:ref oid="GLO-0028">Repartidor</rem:ref> de la <rem:ref oid="GLO-0022">empresa</rem:ref> para la Confirmación de Entrega de los Pedidos</rem:actorRole>
 </rem:actor>
 </rem:section>
 <rem:section
@@ -1578,7 +1578,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0003">
 <rem:name>
-Dar de alta pedido</rem:name>
+Dar de alta <rem:ref oid="GLO-0026">pedido</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1597,11 +1597,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-se proceda a registrar un nuevo pedido.</rem:triggeringEvent>
+se proceda a registrar un nuevo <rem:ref oid="GLO-0026">pedido</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
 El cliente y los productos han de estar registrados en el sistema.</rem:precondition>
 <rem:postcondition>
-Queda el pedido registrado pendiente de la confirmación de entrega.</rem:postcondition>
+Queda el <rem:ref oid="GLO-0026">pedido</rem:ref> registrado pendiente de la confirmación de entrega.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 7
@@ -1612,7 +1612,7 @@ Queda el pedido registrado pendiente de la confirmación de entrega.</rem:postcon
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-solicita al sistema crear un nuevo pedido.</rem:description>
+solicita al sistema crear un nuevo <rem:ref oid="GLO-0026">pedido</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1639,7 +1639,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-pide introducir los datos del pedido.</rem:description>
+pide introducir los datos del <rem:ref oid="GLO-0026">pedido</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1673,43 +1673,6 @@ Ninguno</rem:comments>
 </rem:step>
 </rem:useCase>
 <rem:useCase
- oid = "UC-0004">
-<rem:name>
-Eliminar producto del pedido</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>5</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
-<rem:precondition>
-<rem:tbd/></rem:precondition>
-<rem:postcondition>
-<rem:tbd/></rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
  oid = "UC-0005">
 <rem:name>
 Confirmación de entrega</rem:name>
@@ -1731,11 +1694,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-se quiera confirmar la entrega de un pedido ya realizado.</rem:triggeringEvent>
+se quiera confirmar la entrega de un <rem:ref oid="GLO-0026">pedido</rem:ref> ya realizado.</rem:triggeringEvent>
 <rem:precondition>
-La factura y el pedido han de estar registrados en el sistema.</rem:precondition>
+La <rem:ref oid="GLO-0019">factura</rem:ref> y el <rem:ref oid="GLO-0026">pedido</rem:ref> han de estar registrados en el sistema.</rem:precondition>
 <rem:postcondition>
-El pedido queda señalado como entregado y al pago queda eliminado automáticamente.</rem:postcondition>
+El <rem:ref oid="GLO-0026">pedido</rem:ref> queda señalado como entregado y al pago queda eliminado automáticamente.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 7
@@ -1764,7 +1727,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0004">
 <rem:description>
-selecciona el pedido, ya entregado.</rem:description>
+selecciona el <rem:ref oid="GLO-0026">pedido</rem:ref>, ya entregado.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1809,7 +1772,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0006">
 <rem:name>
-Abrir una nueva factura</rem:name>
+Abrir una nueva <rem:ref oid="GLO-0019">factura</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1828,11 +1791,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-se desee generar una factura.</rem:triggeringEvent>
+se desee generar una <rem:ref oid="GLO-0019">factura</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
 Los datos del cliente y los datos de los productos han de estar registrados.</rem:precondition>
 <rem:postcondition>
-La factura queda registrada y asociada al cliente.</rem:postcondition>
+La <rem:ref oid="GLO-0019">factura</rem:ref> queda registrada y asociada al cliente.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 5
@@ -1843,7 +1806,7 @@ La factura queda registrada y asociada al cliente.</rem:postcondition>
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-solicita la creacion de la nueva factura.</rem:description>
+solicita la creacion de la nueva <rem:ref oid="GLO-0019">factura</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1852,7 +1815,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita el pedido de la venta<br/><br/></rem:description>
+solicita el <rem:ref oid="GLO-0026">pedido</rem:ref> de la venta<br/><br/></rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1861,7 +1824,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-proporciona los datos para identificar el pedido<br/><br/></rem:description>
+proporciona los datos para identificar el <rem:ref oid="GLO-0026">pedido</rem:ref><br/><br/></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1870,7 +1833,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-muestra los datos del pedido</rem:description>
+muestra los datos del <rem:ref oid="GLO-0026">pedido</rem:ref></rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1924,7 +1887,7 @@ Ninguno</rem:comments>
 <rem:number>10</rem:number>
 <rem:systemAction>
 <rem:description>
-registra la factura e imprime una copia de esta.</rem:description>
+registra la <rem:ref oid="GLO-0019">factura</rem:ref> e imprime una copia de esta.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1933,7 +1896,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0007">
 <rem:name>
-Modificar factura</rem:name>
+Modificar <rem:ref oid="GLO-0019">factura</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1952,11 +1915,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-se desee modificar algún dato de una factura.</rem:triggeringEvent>
+se desee modificar algún dato de una <rem:ref oid="GLO-0019">factura</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-La factura a modificar tiene que estar registrada en la base de datos del sistema.</rem:precondition>
+La <rem:ref oid="GLO-0019">factura</rem:ref> a modificar tiene que estar registrada en la base de datos del sistema.</rem:precondition>
 <rem:postcondition>
-La factura queda modificada</rem:postcondition>
+La <rem:ref oid="GLO-0019">factura</rem:ref> queda modificada</rem:postcondition>
 <rem:frequency>
 <rem:value>
 5
@@ -1967,7 +1930,7 @@ La factura queda modificada</rem:postcondition>
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-La factura queda modificada</rem:description>
+La <rem:ref oid="GLO-0019">factura</rem:ref> queda modificada</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1985,7 +1948,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita el pedido de la venta.</rem:description>
+solicita el <rem:ref oid="GLO-0026">pedido</rem:ref> de la venta.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2039,7 +2002,7 @@ Ninguno</rem:comments>
 <rem:number>9</rem:number>
 <rem:systemAction>
 <rem:description>
-registra la factura y pregunta si se desea una copia de esta.</rem:description>
+registra la <rem:ref oid="GLO-0019">factura</rem:ref> y pregunta si se desea una copia de esta.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2053,43 +2016,6 @@ acepta.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0008">
-<rem:name>
-Eliminar factura</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>5</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
-<rem:precondition>
-<rem:tbd/></rem:precondition>
-<rem:postcondition>
-<rem:tbd/></rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
 </rem:useCase>
 </rem:section>
 <rem:section
@@ -2212,9 +2138,9 @@ Ninguno</rem:comments>
 <rem:triggeringEvent>
 se desee añadir existencias al almacén.</rem:triggeringEvent>
 <rem:precondition>
-El producto que se añade ha de estar registrado en el almacén, es decir, solo aumentamos su stock.</rem:precondition>
+El producto que se añade ha de estar registrado en el almacén, es decir, solo aumentamos su <rem:ref oid="GLO-0012">stock</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Se aumenta el stock del producto.</rem:postcondition>
+Se aumenta el <rem:ref oid="GLO-0012">stock</rem:ref> del producto.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 7
@@ -2267,45 +2193,6 @@ acepta la confirmación.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 </rem:useCase>
-<rem:useCase
- oid = "UC-0011">
-<rem:name>
-Eliminar producto del almacén</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>5</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
-<rem:precondition>
-<rem:tbd/></rem:precondition>
-<rem:postcondition>
-<rem:tbd/></rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
 </rem:section>
 </rem:section>
 </rem:section>
@@ -2348,7 +2235,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-no se permitirá la venta a un cliente que no haya sido previamente registrado por la empresa</rem:description>
+no se permitirá la venta a un cliente que no haya sido previamente registrado por la <rem:ref oid="GLO-0022">empresa</rem:ref></rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0002">
@@ -2468,7 +2355,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-no se permitirá la venta a un cliente que tenga pendiente el pago del pedido anterior, salvo si se ha llegado a un acuerdo de pago trimestral, anual...</rem:description>
+no se permitirá la venta a un cliente que tenga pendiente el pago del <rem:ref oid="GLO-0026">pedido</rem:ref> anterior, salvo si se ha llegado a un acuerdo de pago trimestral, anual...</rem:description>
 </rem:constraintRequirement>
 </rem:section>
 <rem:section
@@ -2657,12 +2544,6 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
-<rem:th oid ="UC-0004"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-</rem:tr>
-<rem:tr>
 <rem:th oid ="UC-0005"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
@@ -2681,12 +2562,6 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
-<rem:th oid ="UC-0008"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
 <rem:th oid ="UC-0009"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2694,12 +2569,6 @@ Ninguno</rem:comments>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0010"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="UC-0011"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
@@ -2759,10 +2628,10 @@ Glosario de Términos</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>7 </rem:number>
-<rem:paragraph
- oid = "PRG-0007">
+<rem:glossaryItem
+ oid = "GLO-0014">
 <rem:name>
-Cartera de Clientes</rem:name>
+<rem:ref oid="GLO-0014">Albarán</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2774,12 +2643,29 @@ Cartera de Clientes</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Cartera de clientes:  conjunto de clientes que tiene una empresa o un vendedor.<br/></rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0008">
+<rem:text>Nota de entrega de una cosa que debe firmar la persona que la recibe y devolvérsela a la persona que la ha llevado.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0025">
 <rem:name>
-Preventa</rem:name>
+<rem:ref oid="GLO-0025">Cámara de refrigeración</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>es un sistema capaz de generar temperaturas negativas, hasta niveles térmicos que permitan la refrigeración de sustancias diversas y masas determinadas de productos</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0007">
+<rem:name>
+<rem:ref oid="GLO-0007">Cartera de Clientes</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2791,12 +2677,114 @@ Preventa</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Preventa: es la venta de los productos antes  de ser entregados al cliente, suelen ser realizadas por los comerciales de la empresa en cuestión, los cuales  presentan ante los clientes catálogos de los productos que ofrecen.</rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0009">
+<rem:text><br/>  conjunto de clientes que tiene una <rem:ref oid="GLO-0022">empresa</rem:ref> o un vendedor.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0018">
 <rem:name>
-Pago a reposición</rem:name>
+<rem:ref oid="GLO-0018">Comercial</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Personal encargado a la venta de los Productos<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0017">
+<rem:name>
+<rem:ref oid="GLO-0017">C.P.</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text> abreviatura de Código  Postal</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0022">
+<rem:name>
+<rem:ref oid="GLO-0022">Empresa</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>unidad de organización dedicada a actividades industriales, mercantiles o de prestación de servicio con fines lucrativos,</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0019">
+<rem:name>
+<rem:ref oid="GLO-0019">Factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>es un documento que refleja la entrega o venta de un producto, junto a la <rem:ref oid="GLO-0020">fecha de venta</rem:ref>, además de indicar la cantidad a pagar como contraprestación. En la <rem:ref oid="GLO-0019">factura</rem:ref> se encuentran los datos del vendedor y del cliente, el detalle de los productos, los precios unitarios y los precios totales</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0021">
+<rem:name>
+<rem:ref oid="GLO-0021">Fecha de Compra</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>es la fecha en la cual se realiza la compra de productos</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0020">
+<rem:name>
+<rem:ref oid="GLO-0020">Fecha de Venta</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>es la fecha en la cual se realiza la venta de productos.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0011">
+<rem:name>
+<rem:ref oid="GLO-0011">Inventario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2808,12 +2796,29 @@ Pago a reposición</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Pago a Reposición: se  abona el importe de cada remesa cuando se recibe la siguiente. Suele ser frecuente en el sector de la restauración.</rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0010">
+<rem:text> documento en el que están escritos los asientos de los bienes y demás cosas pertenecientes a una persona o comunidad, hecho con orden y distinción.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0027">
 <rem:name>
-Nave Industrial</rem:name>
+<rem:ref oid="GLO-0027">Mercancía</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Trato de vender y comprar comerciando en géneros</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0010">
+<rem:name>
+<rem:ref oid="GLO-0010">Nave Industrial</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2825,12 +2830,29 @@ Nave Industrial</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Nave industrial:  edificio grande, de una sola planta, con el techo alto y sin divisiones, que se usa como fábrica, como granja o como almacén.</rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0011">
+<rem:text> edificio grande, de una sola planta, con el techo alto y sin divisiones, que se usa como fábrica, como granja o como almacén.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0024">
 <rem:name>
-Inventario</rem:name>
+<rem:ref oid="GLO-0024">Oficina</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Local donde se hace, se ordena o trabaja</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0009">
+<rem:name>
+<rem:ref oid="GLO-0009">Pago a reposición</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2842,12 +2864,46 @@ Inventario</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Inventario:  documento en el que están escritos los asientos de los bienes y demás cosas pertenecientes a una persona o comunidad, hecho con orden y distinción.</rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0012">
+<rem:text>se  abona el importe de cada remesa cuando se recibe la siguiente. Suele ser frecuente en el sector de la restauración.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0026">
 <rem:name>
-Stock</rem:name>
+<rem:ref oid="GLO-0026">Pedido</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Encargo hecho a un fabricante o vendedor de géneros de su tráfico</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0023">
+<rem:name>
+<rem:ref oid="GLO-0023">Polígono</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Unidad urbanística constituida por una superficie de terreno, delimitada para fines de ordenación urbana, planificación industrial, <rem:ref oid="GLO-0018">comercial</rem:ref>, etc..</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0013">
+<rem:name>
+<rem:ref oid="GLO-0013">Presupuesto</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2859,12 +2915,12 @@ Stock</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Stock: Cantidad de productos, materias primas, herramientas, etc., que es necesario tener almacenadas para compensar la diferencia entre el flujo del consumo y el de la producción. Constituye una inversión que permite asegurar en condiciones óptimas la continuidad de las ventas, las fabricaciones y la explotación normal de la empresa.</rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0013">
+<rem:text>Estimación de los gastos e ingresos de una unidad económica (familia, <rem:ref oid="GLO-0022">empresa</rem:ref>, Estado) en un determinado período. Estimación del precio de una <rem:ref oid="GLO-0027">mercancía</rem:ref> o servicio.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0008">
 <rem:name>
-Presupuesto</rem:name>
+<rem:ref oid="GLO-0008">Preventa</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2876,12 +2932,12 @@ Presupuesto</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Presupuesto: Estimación de los gastos e ingresos de una unidad económica (familia, empresa, Estado) en un determinado período. Estimación del precio de una mercancía o servicio.</rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0014">
+<rem:text>es la venta de los productos antes  de ser entregados al cliente, suelen ser realizadas por los comerciales de la <rem:ref oid="GLO-0022">empresa</rem:ref> en cuestión, los cuales  presentan ante los clientes catálogos de los productos que ofrecen.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0015">
 <rem:name>
-Albarán</rem:name>
+<rem:ref oid="GLO-0015">Proveedor</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2893,12 +2949,29 @@ Albarán</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Albarán: Nota de entrega de una cosa que debe firmar la persona que la recibe y devolvérsela a la persona que la ha llevado.</rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0015">
+<rem:text>Persona que tiene por oficio proveer de todo lo necesario a una colectividad o casa de gran consumo.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0028">
 <rem:name>
-Proveedor</rem:name>
+<rem:ref oid="GLO-0028">Repartidor</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Persona que reparte o distribuye los productos de la <rem:ref oid="GLO-0022">empresa</rem:ref> en cuestión.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0012">
+<rem:name>
+<rem:ref oid="GLO-0012">Stock</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2910,8 +2983,8 @@ Proveedor</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Proveedor:  Persona que tiene por oficio proveer de todo lo necesario a una colectividad o casa de gran consumo.</rem:text>
-</rem:paragraph>
+<rem:text> Cantidad de productos, materias primas, herramientas, etc., que es necesario tener almacenadas para compensar la diferencia entre el flujo del consumo y el de la producción. Constituye una inversión que permite asegurar en condiciones óptimas la continuidad de las ventas, las fabricaciones y la explotación normal de la <rem:ref oid="GLO-0022">empresa</rem:ref>.</rem:text>
+</rem:glossaryItem>
 </rem:section>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
@@ -2964,7 +3037,7 @@ Descripción</rem:name>
 <rem:sources stakeholders ="STK-0005 STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El proyecto esta basado en una empresa llamada Congelados Carmona S.L. Fue fundada sobre el año 92. En sus inicios esta empresa estaba situada en la Ctra. Nacional IV, km.509, 41410 Carmona (Sevilla). Posteriormente se traslado a una nave industrial en el Polígono El Pilero  C/Cerrajero 2 también situado en Carmona.<br/> Esta nave está dotada de una oficina, una zona para la venta al público, una cámara de congelación y otra de refrigeración con acceso privado para los trabajadores. <br/>Congelados Carmona es una empresa encargada de ofrecer una gran variedad de productos, la mayoría del departamento de congelados y especialidades para restaurante, así como también se encarga de su servicio al público. Cuenta con una serie de proveedores que visitan el establecimiento y ofrecen productos nuevos, realizan compras a estos y ellos proponen la forma de pago. Hay distintas formas de pago a estos proveedores, al contado, a reposición, y  con otros acuerdos (al mes, a 3 meses,…), estas formas de pago depende de la cantidad del pedido y del propio proveedor.<br/><br/>A lo largo de este documento vamos a describir los procesos relativos a la preventa y a la venta que realizan los trabajadores, así como la distribución del producto. Los trabajadores disponen cada uno de una cartera de clientes y estos los visitan, normalmente por las mañanas, por las tardes cargan las mercancías y preparan las facturas, al día siguiente la mercancía es distribuida y las formas de pago, al igual que los proveedores, dependen del cliente. Normalmente si el cliente lleva tiempo confiando en sus servicios, la empresa ofrece más facilidades de pago, y también dependiendo de la cantidad de la mercancía se acuerda una forma de pago u otra.<br/>Esta empresa para garantizar un servicio optimo y para que los pedidos lleguen a tiempo y en buenas condiciones dispone de 4 furgones con cámara isotérmica. Por otra parte, otro servicio que presta esta empresa es la venta al público. Hay una zona de autoservicio en la que cualquier persona puede comprar y será atendida por una cajera que le cobrará al contado. El establecimiento está abierto de lunes a viernes de 10:00 a 20:00 de la tarde. La plantilla de trabajadores consta de dos repartidores, cinco vendedores, una dependienta y un administrativo. <br/></rem:text>
+<rem:text>El proyecto esta basado en una <rem:ref oid="GLO-0022">empresa</rem:ref> llamada Congelados Carmona S.L. Fue fundada sobre el año 92. En sus inicios esta <rem:ref oid="GLO-0022">empresa</rem:ref> estaba situada en la Ctra. Nacional IV, km.509, 41410 Carmona (Sevilla). Posteriormente se traslado a una <rem:ref oid="GLO-0010">nave industrial</rem:ref> en el <rem:ref oid="GLO-0023">Polígono</rem:ref> El Pilero  C/Cerrajero 2 también situado en Carmona.<br/> Esta nave está dotada de una <rem:ref oid="GLO-0024">oficina</rem:ref>, una zona para la venta al público, una cámara de congelación y otra de refrigeración con acceso privado para los trabajadores. <br/>Congelados Carmona es una <rem:ref oid="GLO-0022">empresa</rem:ref> encargada de ofrecer una gran variedad de productos, la mayoría del departamento de congelados y especialidades para restaurante, así como también se encarga de su servicio al público. Cuenta con una serie de proveedores que visitan el establecimiento y ofrecen productos nuevos, realizan compras a estos y ellos proponen la forma de pago. Hay distintas formas de pago a estos proveedores, al contado, a reposición, y  con otros acuerdos (al mes, a 3 meses,…), estas formas de pago depende de la cantidad del <rem:ref oid="GLO-0026">pedido</rem:ref> y del propio <rem:ref oid="GLO-0015">proveedor</rem:ref>.<br/><br/>A lo largo de este documento vamos a describir los procesos relativos a la <rem:ref oid="GLO-0008">preventa</rem:ref> y a la venta que realizan los trabajadores, así como la distribución del producto. Los trabajadores disponen cada uno de una <rem:ref oid="GLO-0007">cartera de clientes</rem:ref> y estos los visitan, normalmente por las mañanas, por las tardes cargan las mercancías y preparan las facturas, al día siguiente la <rem:ref oid="GLO-0027">mercancía</rem:ref> es distribuida y las formas de pago, al igual que los proveedores, dependen del cliente. Normalmente si el cliente lleva tiempo confiando en sus servicios, la <rem:ref oid="GLO-0022">empresa</rem:ref> ofrece más facilidades de pago, y también dependiendo de la cantidad de la <rem:ref oid="GLO-0027">mercancía</rem:ref> se acuerda una forma de pago u otra.<br/>Esta <rem:ref oid="GLO-0022">empresa</rem:ref> para garantizar un servicio optimo y para que los pedidos lleguen a tiempo y en buenas condiciones dispone de 4 furgones con cámara isotérmica. Por otra parte, otro servicio que presta esta <rem:ref oid="GLO-0022">empresa</rem:ref> es la venta al público. Hay una zona de autoservicio en la que cualquier persona puede comprar y será atendida por una cajera que le cobrará al contado. El establecimiento está abierto de lunes a viernes de 10:00 a 20:00 de la tarde. La plantilla de trabajadores consta de dos repartidores, cinco vendedores, una dependienta y un administrativo. <br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -3191,7 +3264,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0040">
 <rem:name>
-Proceso de Pedido</rem:name>
+Proceso de <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3209,7 +3282,7 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0019">
 <rem:name>
-Diagrama Secuencia Alta de Pedido</rem:name>
+Diagrama Secuencia Alta de <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3286,7 +3359,7 @@ Ninguno</rem:comments>
 <rem:systemOperation
  oid = "SOP-0010">
 <rem:name>
-Nueva Factura</rem:name>
+Nueva <rem:ref oid="GLO-0019">Factura</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3301,12 +3374,12 @@ Nueva Factura</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-Genera una nueva Factura en el sistema </rem:description>
+Genera una nueva <rem:ref oid="GLO-0019">Factura</rem:ref> en el sistema </rem:description>
 <rem:parameter oid = "PAR-0133" baseType = "PVT-0004">
 <rem:name>
 PedidoID </rem:name>
 <rem:description>
-identificador correspondiente a un objeto de la clase Pedido</rem:description>
+identificador correspondiente a un objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -3322,7 +3395,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Existe un objeto de la clase Pedido en el sistema tal que Pedido = PedidoID.</rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref> en el sistema tal que <rem:ref oid="GLO-0026">Pedido</rem:ref> = PedidoID.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3332,7 +3405,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Se ha creado un objeto de la clase factura al que se le asigna a numFactura el parámetro numFacturaID</rem:natural>
+Se ha creado un objeto de la clase <rem:ref oid="GLO-0019">factura</rem:ref> al que se le asigna a numFactura el parámetro numFacturaID</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3342,7 +3415,7 @@ Ninguno</rem:comments>
 <rem:name>2</rem:name>
 <rem:expression>
 <rem:natural>
-Se ha asociado dicho objeto al objeto de la clase Pedido precisado en la precondición.</rem:natural>
+Se ha asociado dicho objeto al objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref> precisado en la precondición.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3371,7 +3444,7 @@ Registra la forma de pago deseado por el cliente</rem:description>
 <rem:name>
 numFacturaID</rem:name>
 <rem:description>
-identificador de Factura</rem:description>
+identificador de <rem:ref oid="GLO-0019">Factura</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -3403,7 +3476,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Existe un objeto de la clase Factura tal que numFactura = numFacturaID.</rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0019">Factura</rem:ref> tal que numFactura = numFacturaID.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3413,7 +3486,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Se ha asignado al campo formaPago de la clase factura formaPagoP y al campo importe le asignamos importeP. </rem:natural>
+Se ha asignado al campo formaPago de la clase <rem:ref oid="GLO-0019">factura</rem:ref> formaPagoP y al campo importe le asignamos importeP. </rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3424,7 +3497,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0050">
 <rem:name>
-Modificar Factura</rem:name>
+Modificar <rem:ref oid="GLO-0019">Factura</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3443,7 +3516,7 @@ Ninguno</rem:comments>
 <rem:systemOperation
  oid = "SOP-0014">
 <rem:name>
-Modificar Factura</rem:name>
+Modificar <rem:ref oid="GLO-0019">Factura</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3801,7 +3874,7 @@ se crea un nuevo objeto de la clase Producto .</rem:description>
 <rem:name>
 ProveedorID</rem:name>
 <rem:description>
-identificador del proveedor</rem:description>
+identificador del <rem:ref oid="GLO-0015">proveedor</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -3872,7 +3945,7 @@ Añadir Existencias</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
- Actualiza el Stock de los productos que se añaden al Almacen</rem:description>
+ Actualiza el <rem:ref oid="GLO-0012">Stock</rem:ref> de los productos que se añaden al Almacen</rem:description>
 <rem:parameter oid = "PAR-0148" baseType = "PVT-0004">
 <rem:name>
 ProductoID</rem:name>
@@ -3941,7 +4014,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0043">
 <rem:name>
-Proceso de Pedido</rem:name>
+Proceso de <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3959,7 +4032,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0046">
 <rem:name>
-Alta de Pedido</rem:name>
+Alta de <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3978,7 +4051,7 @@ Ninguno</rem:comments>
 <rem:systemOperation
  oid = "SOP-0004">
 <rem:name>
-Nuevo Pedido</rem:name>
+Nuevo <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3993,12 +4066,12 @@ Nuevo Pedido</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-Generar un nuevo objeto Pedido en el sistema </rem:description>
+Generar un nuevo objeto <rem:ref oid="GLO-0026">Pedido</rem:ref> en el sistema </rem:description>
 <rem:postconditionExpression oid = "POS-0106">
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Se ha creado un objeto de la clase Pedido, al que el sistema le ha asignado un identificador en el atributo PedidoID.</rem:natural>
+Se ha creado un objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref>, al que el sistema le ha asignado un identificador en el atributo PedidoID.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4023,7 +4096,7 @@ Añadir Datos Cliente</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-Asociar los datos de un objeto de la clase Cliente con los de un objeto de la clase Pedido</rem:description>
+Asociar los datos de un objeto de la clase Cliente con los de un objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:description>
 <rem:parameter oid = "PAR-0107" baseType = "PVT-0004">
 <rem:name>
 NombreP</rem:name>
@@ -4036,7 +4109,7 @@ Ninguno</rem:comments>
 <rem:name>
 PedidoID</rem:name>
 <rem:description>
-identificador de Pedido</rem:description>
+identificador de <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -4054,7 +4127,7 @@ Ninguno</rem:comments>
 <rem:name>2</rem:name>
 <rem:expression>
 <rem:natural>
-Existe un objeto de la clase Pedido en el sistema yal que su atributo Pedido se corresponde con el dato PedidoP pasado como parámetro.</rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref> en el sistema yal que su atributo <rem:ref oid="GLO-0026">Pedido</rem:ref> se corresponde con el dato PedidoP pasado como parámetro.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4064,7 +4137,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Se ha asociado el objeto de la clase Cliente al objeto de la clase Pedido, precisados ambos en la precondicion</rem:natural>
+Se ha asociado el objeto de la clase Cliente al objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref>, precisados ambos en la precondicion</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4089,7 +4162,7 @@ Añadir Datos Producto</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-Asociar los datos de un Producto con un objeto de la clase Pedido.</rem:description>
+Asociar los datos de un Producto con un objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref>.</rem:description>
 <rem:parameter oid = "PAR-0117" baseType = "PVT-0004">
 <rem:name>
 NombreP</rem:name>
@@ -4110,7 +4183,7 @@ Ninguno</rem:comments>
 <rem:name>
 PedidoID</rem:name>
 <rem:description>
-Identificador del Pedido</rem:description>
+Identificador del <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -4138,7 +4211,7 @@ Ninguno</rem:comments>
 <rem:name>3</rem:name>
 <rem:expression>
 <rem:natural>
-Existe un objeto de la clase Pedido en el sistema tal que su atributo <br/>Pedido se corresponde con el dato del PedidoID pasado como parámetro.</rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref> en el sistema tal que su atributo <br/><rem:ref oid="GLO-0026">Pedido</rem:ref> se corresponde con el dato del PedidoID pasado como parámetro.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4148,7 +4221,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Se ha asociado el objeto de la clase Produnto indicado anteriormente con un objeto de la clase Pedido, precisados ambos en la precondición.</rem:natural>
+Se ha asociado el objeto de la clase Produnto indicado anteriormente con un objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref>, precisados ambos en la precondición.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4158,7 +4231,7 @@ Ninguno</rem:comments>
 <rem:systemOperation
  oid = "SOP-0007">
 <rem:name>
-Fin Pedido</rem:name>
+Fin <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4173,13 +4246,13 @@ Fin Pedido</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-finaliza la creacion de un Pedido.</rem:description>
+finaliza la creacion de un <rem:ref oid="GLO-0026">Pedido</rem:ref>.</rem:description>
 <rem:resultType>Muestra el valos de los datos del Cliente y de los productos asociados con el objeto Pedido.</rem:resultType>
 <rem:parameter oid = "PAR-0125" baseType = "PVT-0002">
 <rem:name>
 PedidoID</rem:name>
 <rem:description>
-identificador del Pedido</rem:description>
+identificador del <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -4187,7 +4260,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Existe un objeto de la clase Pedido tal que su atributo Pedido se corresponde con el campo PedidoID pasado como parámetro en la operación</rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref> tal que su atributo <rem:ref oid="GLO-0026">Pedido</rem:ref> se corresponde con el campo PedidoID pasado como parámetro en la operación</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4217,7 +4290,7 @@ Ninguno</rem:comments>
 <rem:systemOperation
  oid = "SOP-0008">
 <rem:name>
-Modificar Pedido</rem:name>
+Modificar <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4237,7 +4310,7 @@ Ninguno</rem:comments>
 <rem:name>
 PedidoID</rem:name>
 <rem:description>
-identificador del Pedido</rem:description>
+identificador del <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -4245,7 +4318,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Existe un objeto de la clase Pedido en el sistema tal que su atributo Pedido se corresponde con el dato PedidoID pasado como parámetro</rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref> en el sistema tal que su atributo <rem:ref oid="GLO-0026">Pedido</rem:ref> se corresponde con el dato PedidoID pasado como parámetro</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4270,12 +4343,12 @@ Modificar Estado</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-Cambia el estado del objeto de la clase Pedido identificado por el parámetro PedidoID</rem:description>
+Cambia el estado del objeto de la clase <rem:ref oid="GLO-0026">Pedido</rem:ref> identificado por el parámetro PedidoID</rem:description>
 <rem:parameter oid = "PAR-0129" baseType = "PVT-0002">
 <rem:name>
 PedidoID</rem:name>
 <rem:description>
-identificador del Pedido</rem:description>
+identificador del <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -4283,7 +4356,7 @@ Ninguno</rem:comments>
 <rem:name>
 estaEntregado</rem:name>
 <rem:description>
-indica si esta entregado o no el Pedido</rem:description>
+indica si esta entregado o no el <rem:ref oid="GLO-0026">Pedido</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -4291,7 +4364,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Existe un objeto en la clase Pedido en el sistema tal que su atributo Pedido se corresponde con el dato PedidoID pasado como parámetro</rem:natural>
+Existe un objeto en la clase <rem:ref oid="GLO-0026">Pedido</rem:ref> en el sistema tal que su atributo <rem:ref oid="GLO-0026">Pedido</rem:ref> se corresponde con el dato PedidoID pasado como parámetro</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4429,15 +4502,6 @@ Ninguno
 <rem:trace source = "UC-0003"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0004"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0004"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0004"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "UC-0003"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
@@ -4459,19 +4523,10 @@ Ninguno
 <rem:trace source = "UC-0007"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0008"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0008"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "UC-0009"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0010"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0011"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "SOP-0001"  target = "UC-0001" >
