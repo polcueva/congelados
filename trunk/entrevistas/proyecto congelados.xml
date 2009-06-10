@@ -610,8 +610,8 @@ Informatización relativa al proceso de compra-ventas</rem:name>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0002"/>
-<rem:stability value = "SBV-0003"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
 <rem:description>
 Informatizar el proceso de compra-venta de productos congelados</rem:description>
 </rem:objective>
@@ -638,6 +638,30 @@ Ninguno</rem:comments>
 <rem:stability value = "SBV-0002"/>
 <rem:description>
 avisarnos cuándo un producto que ofrecemos a los clientes está al límite puesto por nuestra parte a punto de agotarse en existencias para  iniciar el proceso de compras en stock, además el sistema ha de indicarnos cuando un producto hay que darle salida del almacén ya que tienen un período de caducidad o cuando dicho período ha sido superado y hay que retirarlo del almacén </rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0004">
+<rem:name>
+Informatizacion relativa al proceso de gestion de pedidos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+gestionar toda la informacion acerca de los pedidos que realizan los clientes</rem:description>
 </rem:objective>
 </rem:section>
 <rem:section
@@ -2601,11 +2625,13 @@ Ninguno</rem:comments>
 <rem:th oid ="OBJ-0001"/>
 <rem:th oid ="OBJ-0002"/>
 <rem:th oid ="OBJ-0003"/>
+<rem:th oid ="OBJ-0004"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0001"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
@@ -2613,21 +2639,25 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0003"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0004"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0005"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2637,10 +2667,12 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0001"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
@@ -2649,23 +2681,27 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0003"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0004"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0005"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
@@ -2673,11 +2709,13 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0007"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
@@ -2685,34 +2723,40 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0009"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0010"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0011"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0001"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0002"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
@@ -2721,23 +2765,27 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0004"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0005"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0006"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 </rem:traceabilityMatrix>
@@ -2936,7 +2984,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0052">
 <rem:name>
-Actas y Entrevista </rem:name>
+Actas de entrevistas y reuniones</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2979,7 +3027,7 @@ Ninguno</rem:comments>
 <rem:minute>38</rem:minute>
 </rem:time>
 <rem:place>Nave Industrial CONGELADOS CARMONA S.L</rem:place>
-<rem:results><rem:tbd/></rem:results>
+<rem:results>En un primer contacto con nuestro cliente intentamos conocer a fondo la estructura básica de la empresa, así como su funcionamiento y algunos detalles que nos son esenciales para poder realizar este proyecto.<br/>La empresa tiene por nombre Congelados Carmona S.L. Fue fundada sobre el año 92. En sus inicios esta empresa estaba situada en la Ctra. Nacional IV, km.509, 41410 Carmona (Sevilla). Posteriormente se trasladó a una nave industrial en el Polígono El Pilero, C/Cerrajero 2 también situado en Carmona. Esta nave está dotada de una oficina, una cámara de congelación otra de refrigeración con acceso privado para los trabajadores, y una zona habilitada para aquellos productos que no necesitan estar a baja temperatura. <br/>Congelados Carmona S.L. es una empresa encargada de ofrecer una gran variedad de productos, la mayoría del departamento de congelados y especialidades para restaurante, asi como también a servicios de catering. Cuenta con una serie de proveedores que visitan el establecimiento y ofrecen productos nuevos, realizan compras a estos y ellos proponen la forma de pago. Nuestro cliente también nos comentó que la empresa esta formada por 3 socios mayoritarios que desempeñan la función de vendedores, además de 2 mas. También cuentan con dos repartidores y con un administrativo-contable.<br/></rem:results>
 	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
 </rem:meeting>
 <rem:meeting
@@ -3009,7 +3057,7 @@ Ninguno</rem:comments>
 <rem:minute>58</rem:minute>
 </rem:time>
 <rem:place>Nave Industrial CONGELADOS CARMONA S.L</rem:place>
-<rem:results><rem:tbd/></rem:results>
+<rem:results>En un segundo encuentro con nuestro cliente hemos querido saber qué función desempeñan cada unos de los trabajadores de la empresa. Sabíamos que la empresa estaba formada por 2 repartidores, 5 vendedores, y  1 administrativo-contable.<br/>Nuestro cliente desempeña la función de vendedor. Al igual que los otros cuatro, tiene una cartera de clientes a la que visita periódicamente. Antes de realizar una ruta por aquellos clientes que han llamado previamente o por aquellos que tienen más necesidades, se actualizan precios, existencia, etc., para poder ofrecer datos de lo que se dispone y posteriormente no cometer errores. Normalmente por las mañana se comprueba cuáles son esos clientes y se realizan una ruta, empezando por aquellos de los que necesitan antes de su  servicios o por aquellos que son más habituales.  Una vez estando con el cliente, él pide lo que necesita y además el vendedor le ofrece todos aquellos productos nuevos, precios, etc. Esto se realiza con cada uno de los clientes. Una vez realizada la preventa, vuelven los vendedores al establecimiento y entregan los pedidos al administrativo para que realice la factura de cada una de las ventas.  Por la tarde preparan la mercancía y van a cobrar a otros clientes.  También en ese momento llevan el control de las existencia, para en cualquier caso, recurrir a los proveedores. Todos los días se preparan las visitas del día siguiente aunque también se pueden ver modificadas en cualquier momento si los llaman. <br/>Los repartidores se encargan de distribuir la mercancía. También preparan una ruta por todos los clientes. Y reparten antes a aquellos que han comprado productos congelados o que necesitan de una temperatura baja para que estos lleguen en buen estado al cliente. Antes de los repartos recogen las facturas y las entregan después con la mercancía. Como se ha descrito anteriormente los vendedores se encargan de realizar el cobro de la mercancía. Por las tardes también son estos los que se encargan de la carga de esta. La carga de la venta consiste en dejarla preparada en una zona del establecimiento para que al día siguiente todo este preparado para cargarlo en los furgones y no se pierda tiempo. Los productos de congelación y refrigeración se mantienen en la cámara pero están preparados para su carga. <br/>El puesto que más nos interesaba es el administrativo. Este se encarga del funcionamiento interno de la empresa. Hace la facturación de las ventas, y a la vez lleva en control de las existencias del almacén. Usa programas específicos para cada contabilidad tanto la de las existencias, como la facturación. La contabilidad general de la empresa la lleva a cabo una gestoría que tienen contratada. <br/></rem:results>
 	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
 </rem:meeting>
 </rem:section>
