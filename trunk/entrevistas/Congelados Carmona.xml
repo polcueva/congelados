@@ -2,7 +2,7 @@
 <!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
-<rem:name>proyecto congelados</rem:name>
+<rem:name>Congelados Carmona</rem:name>
 <rem:c_requirementsSpecification oid = "CRS-0001">
 <rem:name>Documento de Requisitos del Sistema</rem:name>
 <rem:version>
