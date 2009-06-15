@@ -4,7 +4,7 @@
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>proyecto congelados</rem:name>
 <rem:c_requirementsSpecification oid = "CRS-0001">
-<rem:name>proyecto congelados carmonense-Documento de Requisitos del Sistema</rem:name>
+<rem:name>Documento de Requisitos del Sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3383,7 +3383,7 @@ Diagrama de Clases</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagrama de clases definitivo.wmf]]>
+<![CDATA[..\..\diagrama de clases definitivo.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -5110,13 +5110,13 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
+<rem:trace source = "IRQ-0002"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0001"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0002" >
+<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0003"  target = "OBJ-0002" >
