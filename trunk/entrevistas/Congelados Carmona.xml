@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "C:\Archivos de programa\REM 1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>Congelados Carmona</rem:name>
@@ -3775,7 +3775,7 @@ Ninguno</rem:comments>
 <rem:name>3</rem:name>
 <rem:expression>
 <rem:natural>
-El resultado de realizar esta operacion es:<br/>todos los datos de pedido asociados al objeta de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> creado<br/>un atributo numFactura asociado a la clase <rem:ref oid="GLO-0030">Factura</rem:ref><br/>un atributo importe asociado a la clase <rem:ref oid="GLO-0030">Factura</rem:ref></rem:natural>
+El resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion , los valores de los atributos son numFactura, importe.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3836,7 +3836,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Existe un objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> tal que numFactura = numFacturaID.</rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta tal que numFactura = numFacturaID.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3846,7 +3846,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Se ha asignado al campo numFactura de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta numFacturaID, al campo formaPago le asignamos formaPagoP , al campo importe le asignamos importeP, al campo estaPagado le asignamos estaPagadoP. </rem:natural>
+Se ha asignado al atributo numFactura de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta numFacturaID, al atributo formaPago le asignamos formaPagoP , al atributo importe le asignamos importeP, al atributo estaPagado le asignamos estaPagadoP. </rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3856,7 +3856,7 @@ Ninguno</rem:comments>
 <rem:name>2</rem:name>
 <rem:expression>
 <rem:natural>
-El resultado de esta operacion es:<br/>un atributo numFactura asociado a la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta.<br/>un atributo formaPago asociado a la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta.<br/>un atributo estaPagado asociado a la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta.<br/>un atributo importe asociado a la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta.<br/>un atributo fechaVenta asociado a la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta.<br/>un atributo nombreP asociado a la clase Pedido.<br/>un atributo cantidadP asociado a la clase Pedido.<br/>un atributo estaEntregadoP asociado a la clase Pedido.<br/>un atributo nombreC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo apellidosC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo domicilioC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo localidadC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo CPC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo provinciaC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo fechaNacimientoC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo telefonoC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo paisC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo emailC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo DNI asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/></rem:natural>
+El resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, los valores de los atributos son numFactura, importe, formaPago, estaPagado, fechaVenta.<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido precisado en la precondicion, el valor del atributo es estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> precisado en la precondicion, los valores de los atributos es nombre, apellidos, telefono, email,dni,fechaNacimiento, pais,domicilio,localidad,provincia,CP. </rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3904,7 +3904,7 @@ Ninguno</rem:comments>
 se obtienen todos los datos de la <rem:ref oid="GLO-0030">factura</rem:ref> de venta para revisar cuales han de ser modificados</rem:description>
 <rem:parameter oid = "PAR-0177" baseType = "PVT-0004">
 <rem:name>
-numFacturaP</rem:name>
+numFacturaID</rem:name>
 <rem:description>
 identificador de <rem:ref oid="GLO-0030">Factura</rem:ref> de venta</rem:description>
 <rem:comments>
@@ -3914,12 +3914,22 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Existe un objeto de la clase Pedido en el <rem:ref oid="GLO-0026">sistema</rem:ref> tal que numFactura = numFacturaP.</rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta en el <rem:ref oid="GLO-0026">sistema</rem:ref> tal que numFactura = numFacturaID.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0201">
+<rem:name>1</rem:name>
+<rem:expression>
+<rem:natural>
+El resultado de la operacion es:<br/>del objeto de la claseFactura de venta precisado en la precondicion, los valores de los atributos son numFactura, importe, formaPago, estaPagado, fechaVenta.<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido precisado en la precondicion, el valor del atributo es estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> precisado en la precondicion, los valores de los atributos es nombre, apellidos, telefono, email,dni,fechaNacimiento, pais,domicilio,localidad,provincia,CP. </rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
 </rem:systemOperation>
 <rem:systemOperation
  oid = "SOP-0015">
@@ -4096,7 +4106,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-el identificador de la <rem:ref oid="GLO-0030">Factura</rem:ref> de venta pasado como parametro ha de estar registrado</rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de Venta en el <rem:ref oid="GLO-0026">sistema</rem:ref> tal que numFactura=numFacturaID</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4106,7 +4116,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-los datos del objeto <rem:ref oid="GLO-0030">factura</rem:ref> creado, quedan modificados </rem:natural>
+El resultado de la operacion es:<br/>del objeto de la claseFactura de venta precisado en la precondicion, los valores de los atributos son numFactura, importe, formaPago, estaPagado, fechaVenta.<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido precisado en la precondicion, el valor del atributo es estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> precisado en la precondicion, los valores de los atributos es nombre, apellidos, telefono, email,dni,fechaNacimiento, pais,domicilio,localidad,provincia,CP. </rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4268,7 +4278,7 @@ No existe un objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> en el 
 Ninguno</rem:comments>
 </rem:preconditionExpression>
 <rem:postconditionExpression oid = "POS-0087">
-<rem:name>1.</rem:name>
+<rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
 Se ha creado un objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> al que se le asigna como identificador DNI.</rem:natural>
@@ -4278,10 +4288,10 @@ Se ha creado un objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> al 
 Ninguno</rem:comments>
 </rem:postconditionExpression>
 <rem:postconditionExpression oid = "POS-0088">
-<rem:name>2. </rem:name>
+<rem:name>2</rem:name>
 <rem:expression>
 <rem:natural>
-2. Se asigna a los atributos nombre, apellidos, domicilio, CP, localidad, provincia,  fechaDeNacimiento, telefono, país y email los valores nombreP,apellidosP, domicilioP, CPP, localidadP, provinciaP, fechaDeNacimientoP, telefonoP, paisP emailP pasados como parámetros al objeto desde la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> DNI = DNI.</rem:natural>
+El resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> precisado en la precondicion, los valores de los atributos son nombre, apellidos ,telefono, email, dni, fechaNacimiento , pais, domicilio, localidad, provincia,CP.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4358,7 +4368,7 @@ Ninguno</rem:comments>
 <rem:name>2</rem:name>
 <rem:expression>
 <rem:natural>
-el resultado de realizar esta operacion es :<br/>un atributo nombreC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo apellidosC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo domicilioC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo localidadC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo CPC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo provinciaC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo fechaNacimientoC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo telefonoC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo paisC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo emailC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo DNI asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.</rem:natural>
+El resultado de la operacion es :<br/>del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> precisado en la precondicion, los valores de los atributos son nombre, apellidos, telefono, email,dni, fechaNacimiento, pais, domicilio, localidad, provincia,CP</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4443,7 +4453,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-No existe un objeto en la clase <rem:ref oid="GLO-0021">Producto</rem:ref> en el <rem:ref oid="GLO-0026">sistema</rem:ref> talque su atributo Nombre se corresponda con el parámetro NombreP.</rem:natural>
+No existe un objeto en la clase <rem:ref oid="GLO-0021">Producto</rem:ref> en el <rem:ref oid="GLO-0026">sistema</rem:ref> talque su atributo nombreProd se corresponda con el parámetro nombreP.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4453,7 +4463,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-El <rem:ref oid="GLO-0021">producto</rem:ref> queda registrado en el <rem:ref oid="GLO-0026">sistema</rem:ref> identificado por Nombre</rem:natural>
+El <rem:ref oid="GLO-0021">producto</rem:ref> queda registrado en el <rem:ref oid="GLO-0026">sistema</rem:ref> identificado por nombreP</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4463,7 +4473,7 @@ Ninguno</rem:comments>
 <rem:name>2</rem:name>
 <rem:expression>
 <rem:natural>
-el resultado de la operacion es :<br/>un atributo nombreP asociado a la clase <rem:ref oid="GLO-0021">Producto</rem:ref>.<br/>un atributo stockP asociado a la clase <rem:ref oid="GLO-0021">Producto</rem:ref>.<br/>un atributo cantidadP asociado a la clase <rem:ref oid="GLO-0021">Producto</rem:ref>.<br/>un atributo fechaCaducP asociado a la clase <rem:ref oid="GLO-0021">Producto</rem:ref>.<br/>un atributo disponibilidadP asociado a la clase <rem:ref oid="GLO-0021">Producto</rem:ref>.</rem:natural>
+El resultado de la operacion es:<br/>Del objeto de laclase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd, stockProd, fechaCaducidad,disponibilidad</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4509,7 +4519,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-el nombre del <rem:ref oid="GLO-0021">producto</rem:ref> como parañametro ha de estar registrado precisamente en el <rem:ref oid="GLO-0026">sistema</rem:ref></rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> en el <rem:ref oid="GLO-0026">sistema</rem:ref> tal que nombreProd=nombreP</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4627,16 +4637,6 @@ En caso de que el atributo disponibilidad del <rem:ref oid="GLO-0021">Producto</
 <rem:comments>
 Ninguno</rem:comments>
 </rem:postconditionExpression>
-<rem:postconditionExpression oid = "POS-0193">
-<rem:name>3</rem:name>
-<rem:expression>
-<rem:natural>
-<br/></rem:natural>
-<rem:ocl><![CDATA[true]]></rem:ocl>
-</rem:expression>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:postconditionExpression>
 </rem:systemOperation>
 </rem:section>
 </rem:section>
@@ -4708,7 +4708,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-El objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> al que es asociado dicho objeto de la clase Pedido creado, ha de estar creado previamente y registrado en el <rem:ref oid="GLO-0026">sistema</rem:ref>.</rem:natural>
+Existe un objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> en el <rem:ref oid="GLO-0026">sistema</rem:ref> tal que dni = DNI</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4718,7 +4718,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-Se ha creado un objeto de la clase Pedido, al que el <rem:ref oid="GLO-0026">sistema</rem:ref> le ha asignado un identificador en el atributo PedidoID.</rem:natural>
+Se ha creado un objeto de la clase Pedido, al que el <rem:ref oid="GLO-0026">sistema</rem:ref> le ha asignado un identificador en el atributo Pedido.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4927,7 +4927,7 @@ Ninguno</rem:comments>
 <rem:name>2</rem:name>
 <rem:expression>
 <rem:natural>
-el resultado de realizar la operacion es:<br/>un atributo nombreP asociado a la clase Pedido.<br/>un atributo cantidadP asociado a la clase Pedido.<br/>un atributo estaEntregadoP asociado a la clase Pedido.<br/>un atributo nombreC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo apellidosC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo domicilioC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo localidadC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo CPC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo provinciaC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo telefonoC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo paisC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo emailC asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.<br/>un atributo DNI asociado a la clase <rem:ref oid="GLO-0022">Cliente</rem:ref>.</rem:natural>
+El resultado de la operacion es:<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido precisado en la precondicion , los valores de los atributos son estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> precisado en la precondicion, los valores de los atributos son nombre,apellidos,domicilio,localidad,CP,localidad,provincia,telefono, pais, email,dni</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4995,7 +4995,7 @@ Ninguno</rem:comments>
 <rem:name>1 </rem:name>
 <rem:expression>
 <rem:natural>
-el resultado de la operacion es :<br/>un atributo nombreP asociado a la clase Pedido.<br/>un atributo cantidadP asociado a la clase Pedido.<br/>un atributo estaEntregadoP asociado a la clase Pedido.</rem:natural>
+el resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>del objeto de la clase Pedido precisado en la precondicion, los valores de los atributos son estaEntregado.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -5057,6 +5057,16 @@ El estado del PedidoID queda modificado y se establece a true</rem:natural>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:postconditionExpression>
+<rem:postconditionExpression oid = "POS-0202">
+<rem:name>2</rem:name>
+<rem:expression>
+<rem:natural>
+el resultado de la operacion es: <br/>Del objeto de la clase Pedido precisado en la precondicion, los valores de los atributos son estaEntregado.</rem:natural>
+<rem:ocl><![CDATA[true]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
 </rem:systemOperation>
 </rem:section>
 </rem:section>
@@ -5078,228 +5088,6 @@ Prototipo de interfaz de usuario</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>5 </rem:number>
-<rem:section
- oid = "SEC-0053">
-<rem:name>
-Proceso de gestión de clientes</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>2</rem:level>
-<rem:number>5.1 </rem:number>
-<rem:graphicFile
- oid = "GRF-0023">
-<rem:name>
-Gestión de clientes</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\interfaces\imágenes\Gestión de clientes.wmf]]>
-</rem:fileName>
-</rem:graphicFile>
-<rem:paragraph
- oid = "PRG-0033">
-<rem:name>
-Gestión de clientes</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>El usuario introduce el IdCliente para modificar un <rem:ref oid="GLO-0022">cliente</rem:ref> ya existente o todos los datos necesarios para crear un nuevo <rem:ref oid="GLO-0022">cliente</rem:ref> (nombre, apellidos, dni, fecha de nacimiento, domicilio, localidad, provincia,C.P, país, teléfono y E-mail). Por último el usuario pulsa el boton &quot;Modificar&quot; o &quot;Crear&quot;.</rem:text>
-</rem:paragraph>
-</rem:section>
-<rem:section
- oid = "SEC-0054">
-<rem:name>
-Proceso de gestión de pedidos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>2</rem:level>
-<rem:number>5.2 </rem:number>
-<rem:graphicFile
- oid = "GRF-0024">
-<rem:name>
-Gestión de pedidos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\interfaces\imágenes\Gestión de pedidos.wmf]]>
-</rem:fileName>
-</rem:graphicFile>
-<rem:paragraph
- oid = "PRG-0034">
-<rem:name>
-Gestión de pedidos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>El usuario realiza la búsqueda de un pedido mediante un criterio de búsqueda para realizar la modificación o crea un pedido nuevo introduciendo los datos del pedido.</rem:text>
-</rem:paragraph>
-</rem:section>
-<rem:section
- oid = "SEC-0055">
-<rem:name>
-Proceso de gestión de facturación</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>2</rem:level>
-<rem:number>5.3 </rem:number>
-<rem:graphicFile
- oid = "GRF-0025">
-<rem:name>
-Gestión de facturas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[]]>
-</rem:fileName>
-</rem:graphicFile>
-<rem:paragraph
- oid = "PRG-0035">
-<rem:name>
-Gestión de facturas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text></rem:text>
-</rem:paragraph>
-</rem:section>
-<rem:section
- oid = "SEC-0056">
-<rem:name>
-Proceso de gestión de productos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>2</rem:level>
-<rem:number>5.4 </rem:number>
-<rem:graphicFile
- oid = "GRF-0026">
-<rem:name>
-Gestión de productos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\interfaces\imágenes\Gestión de productos.wmf]]>
-</rem:fileName>
-</rem:graphicFile>
-<rem:paragraph
- oid = "PRG-0036">
-<rem:name>
-Gestión de productos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>El usuario introduce el IdProducto a modificar o los datos del <rem:ref oid="GLO-0021">producto</rem:ref> en caso de que sea un nuevo <rem:ref oid="GLO-0021">producto</rem:ref>. Se añaden existencias de cada <rem:ref oid="GLO-0021">producto</rem:ref> a través de su IdProducto.</rem:text>
-</rem:paragraph>
-</rem:section>
 </rem:section>
 </rem:d_requirementsSpecification>
 <rem:defectsSpecification oid = "DFS-0003">
