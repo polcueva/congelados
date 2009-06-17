@@ -2,7 +2,7 @@
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>4</rem:month>
 <rem:day>20</rem:day>
@@ -11,7 +11,7 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>4</rem:month>
 <rem:day>20</rem:day>
@@ -2953,48 +2953,75 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>17</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([POS-0201] 1)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>17</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] del hijo nº1 actualizada: [numFacturaP] -> [numFacturaID]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>17</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Expression.Natural] del hijo nº2 actualizada: [Existe un objeto de la clase Pedido en el sistema tal que numFactura = numFacturaP.] -> [Existe un objeto de la clase Pedido en el sistema tal que numFactura = numFacturaID.]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>17</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Expression.Natural] del hijo nº2 actualizada: [Existe un objeto de la clase Pedido en el sistema tal que numFactura = numFacturaID.] -> [Existe un objeto de la clase Factura de venta en el sistema tal que numFactura = numFacturaID.]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0009</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>17</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([POS-0202] 2)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 </rem:log>
