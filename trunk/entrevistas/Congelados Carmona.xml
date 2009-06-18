@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files\REM 1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Archivos de programa\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>Congelados Carmona</rem:name>
@@ -3168,7 +3168,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0051">
 <rem:name>
-Documentación</rem:name>
+Documentacion</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -5229,6 +5229,23 @@ Ninguno</rem:comments>
 <![CDATA[.\interfaces\imágenes\Gestión de facturas.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0036">
+<rem:name>
+Gestión de facturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El usuario selecciona y modifica una <rem:ref oid="GLO-0030">factura</rem:ref> de entre las almacenadas según un criterio de búsqueda o crea una <rem:ref oid="GLO-0030">factura</rem:ref> nueva introduciendo los datos.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0056">
@@ -5284,7 +5301,7 @@ Gestión de existencias</rem:name>
 <rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El usuario selecciona y modifica los datos de un proucto o introduce los datos de uno nuevo. También puede añadir nuevas existencias con su correspondiente fecha de caducidad.<br/></rem:text>
+<rem:text>El usuario selecciona y modifica los datos de un <rem:ref oid="GLO-0021">producto</rem:ref> o introduce los datos de uno nuevo. También puede añadir nuevas existencias con su correspondiente fecha de caducidad.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
