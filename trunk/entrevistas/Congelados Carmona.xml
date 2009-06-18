@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "C:\Archivos de programa\REM 1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>Congelados Carmona</rem:name>
@@ -1179,7 +1179,7 @@ Proceso de gestión de clientes</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagrama casos de usos\Proceso de Gestión de Cliente.jpg]]>
+<![CDATA[.\diagrama casos de usos\Proceso de gestion de cliente.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -1218,7 +1218,7 @@ Proceso de gestión de pedidos</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagrama casos de usos\Proceso de Gestión de Pedidos.jpg]]>
+<![CDATA[.\diagrama casos de usos\Proceso de gestion de pedidos.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -1257,7 +1257,7 @@ Proceso de gestión de facturación</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagrama casos de usos\Proceso de Gestión de Factura.jpg]]>
+<![CDATA[.\diagrama casos de usos\Proceso de gestion de facturación.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -1296,7 +1296,7 @@ Procesos de gestión de existencias</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagrama casos de usos\Proceso de Gestión de Existencias.jpg]]>
+<![CDATA[.\diagrama casos de usos\Proceso de gestion de existencias.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
