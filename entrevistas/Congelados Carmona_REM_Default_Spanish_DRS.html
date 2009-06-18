@@ -257,6 +257,73 @@ Modelo estático del sistema (diagrama de clase)</h1><a name="GRF-0014" />
 <b>Figura 1</b>:
                 
 Diagrama de Clases</p>
+<a name="VAL-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">VAL-0001</th>
+<th align="left" valign="top" width="100%">
+Boolean</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 18/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Cecilia Barrera Pérez</a>
+<br />
+</li>
+<li>
+<a href="#STK-0002">
+Jesús Castillo Barrios</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Miguel Ángel Sánchez Baeza</a>
+<br />
+</li>
+<li>
+<a href="#STK-0004">
+Rafael Sánchez-Matamoros Jiménez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este tipo valor representa
+<em>
+valor de tipo logico que puede tomar el valor de verdadero o falso</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Definición</th>
+<td align="left" valign="top">
+<code>
+PD
+</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
 <a name="SEC-0031" />
 <h1 align="left">3 
 Modelo dinámico del sistema (diagrama de secuencia)</h1><a name="SEC-0035" />
@@ -527,7 +594,7 @@ es la forma de pago con la que desea pagar el <a href="#GLO-0022" title="Persona
 <a name="PAR-0140" />
 <code>
 estaPagadoP : <code>
-String</code> -- <em>
+Boolean</code> -- <em>
 valor booleano que indica si la <a href="#GLO-0030" title="Es un documento que refleja la entrega de un producto o la provisión de un servicio, además de indicar la cantidad a pagar como contraprestación.En la factura se encuentran los datos del expedidor y del destinatario, el detalle de los productos y servicios suministrados, los precios unitarios, los precios totales y los impuestos.">factura</a> ha sido pagada</em></code><br />
 <a name="PAR-0141" />
 <code>
@@ -1484,7 +1551,7 @@ fecha de caducidad del <a href="#GLO-0021" title="Beneficio o ganancia:">Product
 <a name="PAR-0152" />
 <code>
 disponibilidad : <code>
-Real</code> -- <em>
+Boolean</code> -- <em>
 valor booleano que indica si el <a href="#GLO-0021" title="Beneficio o ganancia:">producto</a> esta disponible o no</em></code><br />
 </td>
 </tr>
@@ -2153,7 +2220,7 @@ identificador del Pedido</em></code><br />
 <a name="PAR-0130" />
 <code>
 estaEntregado : <code>
-Real</code> -- <em>
+Boolean</code> -- <em>
 indica si esta entregado o no el Pedido</em></code><br />
 </td>
 </tr>
