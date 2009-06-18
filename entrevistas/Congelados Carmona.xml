@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "C:\Archivos de programa\REM 1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>Congelados Carmona</rem:name>
@@ -3767,7 +3767,7 @@ Ninguno</rem:comments>
 <rem:name>3</rem:name>
 <rem:expression>
 <rem:natural>
-El resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion , los valores de los atributos son numFactura, importe.</rem:natural>
+El resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta asociado a la clase Pedido precisado en la precondicion , los valores de los atributos son numFactura, importe.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3848,7 +3848,7 @@ Ninguno</rem:comments>
 <rem:name>2</rem:name>
 <rem:expression>
 <rem:natural>
-El resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, los valores de los atributos son numFactura, importe, formaPago, estaPagado, fechaVenta.<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido precisado en la precondicion, el valor del atributo es estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> precisado en la precondicion, los valores de los atributos es nombre, apellidos, telefono, email,dni,fechaNacimiento, pais,domicilio,localidad,provincia,CP. </rem:natural>
+El resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, los valores de los atributos son numFactura, importe, formaPago, estaPagado, fechaVenta.<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> asociado al objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido asociado al objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, el valor del atributo es estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> asociado al objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, los valores de los atributos es nombre, apellidos, telefono, email,dni,fechaNacimiento, pais,domicilio,localidad,provincia,CP. </rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -3916,7 +3916,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-El resultado de la operacion es:<br/>del objeto de la claseFactura de venta precisado en la precondicion, los valores de los atributos son numFactura, importe, formaPago, estaPagado, fechaVenta.<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido precisado en la precondicion, el valor del atributo es estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> precisado en la precondicion, los valores de los atributos es nombre, apellidos, telefono, email,dni,fechaNacimiento, pais,domicilio,localidad,provincia,CP. </rem:natural>
+El resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, los valores de los atributos son numFactura, importe, formaPago, estaPagado, fechaVenta.<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> asociado al objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta  precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido asociado al objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, el valor del atributo es estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> asociado al objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, los valores de los atributos es nombre, apellidos, telefono, email,dni,fechaNacimiento, pais,domicilio,localidad,provincia,CP. </rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4108,7 +4108,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-El resultado de la operacion es:<br/>del objeto de la claseFactura de venta precisado en la precondicion, los valores de los atributos son numFactura, importe, formaPago, estaPagado, fechaVenta.<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido precisado en la precondicion, el valor del atributo es estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> precisado en la precondicion, los valores de los atributos es nombre, apellidos, telefono, email,dni,fechaNacimiento, pais,domicilio,localidad,provincia,CP. </rem:natural>
+El resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, los valores de los atributos son numFactura, importe, formaPago, estaPagado, fechaVenta.<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> asociado al objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta  precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido asociado al objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, el valor del atributo es estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> asociado al objeto de la clase <rem:ref oid="GLO-0030">Factura</rem:ref> de venta precisado en la precondicion, los valores de los atributos es nombre, apellidos, telefono, email,dni,fechaNacimiento, pais,domicilio,localidad,provincia,CP. </rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
