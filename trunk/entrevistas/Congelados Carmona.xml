@@ -1464,7 +1464,7 @@ Ninguna</rem:postcondition>
 </rem:frequency>
 <rem:step oid = "STP-0032">
 <rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0003">
+<rem:actorAction actor = "ACT-0001">
 <rem:description>
 El Actor busca un <rem:ref oid="GLO-0022">Cliente</rem:ref></rem:description>
 </rem:actorAction>
@@ -1475,7 +1475,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-pregunta por el código del <rem:ref oid="GLO-0022">cliente</rem:ref> y lanza un listado con todos los clientes y sus códigos.</rem:description>
+pregunta por el nombre del <rem:ref oid="GLO-0022">cliente</rem:ref> y lanza un listado con todos los clientes.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1489,26 +1489,8 @@ selecciona dicho <rem:ref oid="GLO-0022">cliente</rem:ref>.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0035">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-busca toda la información del <rem:ref oid="GLO-0022">cliente</rem:ref>.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0036">
-<rem:number>5</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-confirma la acción.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 <rem:step oid = "STP-0037">
-<rem:number>6</rem:number>
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
 muestra todos los datos del <rem:ref oid="GLO-0022">cliente</rem:ref>.</rem:description>
@@ -1577,26 +1559,8 @@ introduce los datos.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0041">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-pide confirmación de los datos introducidos.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0042">
-<rem:number>5</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-confirma la acción.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 <rem:step oid = "STP-0043">
-<rem:number>6</rem:number>
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
 pide confirmar la finalización del alta del <rem:ref oid="GLO-0022">cliente</rem:ref>.</rem:description>
@@ -1649,7 +1613,7 @@ se proceda a registrar un nuevo pedido.</rem:triggeringEvent>
 <rem:precondition>
 El <rem:ref oid="GLO-0022">cliente</rem:ref> y los productos han de estar registrados en el <rem:ref oid="GLO-0026">sistema</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Queda el pedido registrado pendiente de la confirmación de entrega.</rem:postcondition>
+Queda el pedido registrado pendiente de la confirmación de entrega y asociado a un <rem:ref oid="GLO-0022">cliente</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 7
@@ -1671,6 +1635,13 @@ Ninguno</rem:comments>
 <rem:description>
 pide introducir los datos del <rem:ref oid="GLO-0022">cliente</rem:ref>. </rem:description>
 </rem:systemAction>
+<rem:stepException oid = "STX-0001">
+<rem:condition>
+el <rem:ref oid="GLO-0022">cliente</rem:ref> no esta registrado</rem:condition>
+<rem:useCaseAction useCase = "UC-0001"/><rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
@@ -1746,7 +1717,7 @@ se quiera confirmar la entrega de un pedido ya realizado.</rem:triggeringEvent>
 <rem:precondition>
 La <rem:ref oid="GLO-0030">factura</rem:ref> y el pedido han de estar registrados en el <rem:ref oid="GLO-0026">sistema</rem:ref>.</rem:precondition>
 <rem:postcondition>
-El pedido queda señalado como entregado y al pago queda eliminado automáticamente.</rem:postcondition>
+El pedido queda señalado como entregado. Y el pago queda pendiente de confirmación</rem:postcondition>
 <rem:frequency>
 <rem:value>
 7
