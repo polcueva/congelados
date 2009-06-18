@@ -2224,14 +2224,15 @@ se desee acceder a los datos de cualquier <a href="#GLO-0022" title="Persona que
 El <a href="#GLO-0022" title="Persona que habitualmente compra en un establecimiento o requiere sus servicios.">cliente</a> ha de estar registrado.</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
 <a name="STP-0032" />
 <td align="center" valign="top">1</td>
-<td>El actor<a href="#ACT-0003" title="Este actor representa a un comercial para la captación de Pedidos"> Comercial (ACT-0003)
+<td>El actor<a href="#ACT-0001" title="Este actor representa un empleado dedicado a la administración de la empresa">
+Usuario Administrativo (ACT-0001)
     </a>
 <em>
 El Actor busca un <a href="#GLO-0022" title="Persona que habitualmente compra en un establecimiento o requiere sus servicios.">Cliente</a>
@@ -2244,7 +2245,7 @@ El Actor busca un <a href="#GLO-0022" title="Persona que habitualmente compra en
 <td>El
      
     sistema<em>
-pregunta por el código del <a href="#GLO-0022" title="Persona que habitualmente compra en un establecimiento o requiere sus servicios.">cliente</a> y lanza un listado con todos los clientes y sus códigos.</em>
+pregunta por el nombre del <a href="#GLO-0022" title="Persona que habitualmente compra en un establecimiento o requiere sus servicios.">cliente</a> y lanza un listado con todos los clientes.</em>
 </td>
 </tr>
 <tr>
@@ -2258,27 +2259,8 @@ selecciona dicho <a href="#GLO-0022" title="Persona que habitualmente compra en 
 </td>
 </tr>
 <tr>
-<a name="STP-0035" />
-<td align="center" valign="top">4</td>
-<td>El
-     
-    sistema<em>
-busca toda la información del <a href="#GLO-0022" title="Persona que habitualmente compra en un establecimiento o requiere sus servicios.">cliente</a>.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0036" />
-<td align="center" valign="top">5</td>
-<td>El actor<a href="#ACT-0001" title="Este actor representa un empleado dedicado a la administración de la empresa">
-Usuario Administrativo (ACT-0001)
-    </a>
-<em>
-confirma la acción.</em>
-</td>
-</tr>
-<tr>
 <a name="STP-0037" />
-<td align="center" valign="top">6</td>
+<td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
@@ -2423,7 +2405,11 @@ Informatizacion relativa para los diferentes clientes</a>
     caso de uso cuando
 <em>
 se proceda a dar de alta a un <a href="#GLO-0022" title="Persona que habitualmente compra en un establecimiento o requiere sus servicios.">cliente</a>.</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0003">
+           [UC-0003]
+           
+Dar de alta pedido</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -2431,7 +2417,7 @@ se proceda a dar de alta a un <a href="#GLO-0022" title="Persona que habitualmen
 Ninguna</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -2466,27 +2452,8 @@ introduce los datos.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0041" />
-<td align="center" valign="top">4</td>
-<td>El
-     
-    sistema<em>
-pide confirmación de los datos introducidos.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0042" />
-<td align="center" valign="top">5</td>
-<td>El actor<a href="#ACT-0001" title="Este actor representa un empleado dedicado a la administración de la empresa">
-Usuario Administrativo (ACT-0001)
-    </a>
-<em>
-confirma la acción.</em>
-</td>
-</tr>
-<tr>
 <a name="STP-0043" />
-<td align="center" valign="top">6</td>
+<td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
@@ -2720,7 +2687,7 @@ confirma.</em>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Queda el pedido registrado pendiente de la confirmación de entrega.</td>
+Queda el pedido registrado pendiente de la confirmación de entrega y asociado a un <a href="#GLO-0022" title="Persona que habitualmente compra en un establecimiento o requiere sus servicios.">cliente</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2728,12 +2695,20 @@ Queda el pedido registrado pendiente de la confirmación de entrega.</td>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
+<a name="STX-0001" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+el <a href="#GLO-0022" title="Persona que habitualmente compra en un establecimiento o requiere sus servicios.">cliente</a> no esta registrado,
+                            </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0001">
+Dar de alta a un cliente
+        (UC-0001)
+    </a>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Rendimiento</th>
@@ -2922,7 +2897,7 @@ Repartidor (ACT-0004)
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-El pedido queda señalado como entregado y al pago queda eliminado automáticamente.</td>
+El pedido queda señalado como entregado. Y el pago queda pendiente de confirmación</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
