@@ -3460,7 +3460,7 @@ Diagrama de Clases</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagrama de clases definitivo.wmf]]>
+<![CDATA[.\diagrama de clases definitivo.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -3518,7 +3518,7 @@ Diagrama Secuencia Facturación</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia de Facturacion.wmf]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de Facturacion.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -3539,7 +3539,7 @@ Diagrama Secuencia Modificar <rem:ref oid="GLO-0030">Factura</rem:ref></rem:name
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia de moficar Factura.wmf]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de moficar Factura.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -3580,7 +3580,7 @@ Diagrama Secuencias Alta Clientes</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta cliente.wmf]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta cliente.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -3601,7 +3601,7 @@ Diagrama Secuencia Buscar <rem:ref oid="GLO-0022">Cliente</rem:ref></rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia buscar cliente.wmf]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia buscar cliente.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -3642,7 +3642,7 @@ Diagrama Secuencia Alta <rem:ref oid="GLO-0021">Producto</rem:ref> en <rem:ref o
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta de producto en almacen.wmf]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta de producto en almacen.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -3663,7 +3663,7 @@ Diagrama Secuencia Añadir Existencias</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia de añadir existencias.wmf]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de añadir existencias.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -3703,7 +3703,7 @@ Diagrama Secuencia Alta de Pedido</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta de pedido.wmf]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia de alta de pedido.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -3724,7 +3724,7 @@ Diagrama Secuencias Confirmación de Entrega</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagramas de secuencias\Diagrama secuencia confirmacion de entrega de pedido.wmf]]>
+<![CDATA[.\diagramas de secuencias\Diagrama secuencia confirmacion de entrega de pedido.jpg]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -5421,15 +5421,6 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "IRQ-0003"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
@@ -5437,6 +5428,15 @@ Ninguno
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0002"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0003"  target = "OBJ-0003" >
