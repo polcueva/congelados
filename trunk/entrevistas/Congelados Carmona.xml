@@ -1373,7 +1373,7 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0005 STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>a un <rem:ref oid="GLO-0029">comercial</rem:ref> para la captación de Clientes y Pedidos</rem:actorRole>
+<rem:actorRole>a un <rem:ref oid="GLO-0029">comercial</rem:ref> para la captación de Pedidos</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0004">
