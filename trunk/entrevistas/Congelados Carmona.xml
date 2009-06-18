@@ -4521,7 +4521,7 @@ Ninguno</rem:comments>
 <rem:name>1</rem:name>
 <rem:expression>
 <rem:natural>
-el <rem:ref oid="GLO-0021">producto</rem:ref> queda asociado al <rem:ref oid="GLO-0015">proveedor</rem:ref> que nos lo suministra</rem:natural>
+El objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> es asociado al objeto de la clase Proovedor.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4919,7 +4919,7 @@ Ninguno</rem:comments>
 <rem:name>2</rem:name>
 <rem:expression>
 <rem:natural>
-El resultado de la operacion es:<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido precisado en la precondicion , los valores de los atributos son estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> precisado en la precondicion, los valores de los atributos son nombre,apellidos,domicilio,localidad,CP,localidad,provincia,telefono, pais, email,dni</rem:natural>
+El resultado de la operacion es:<br/>Del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> asociado al objeto de la clase Pedido precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>Del objeto de la clase Pedido precisado en la precondicion , los valores de los atributos son estaEntregado.<br/>Del objeto de la clase <rem:ref oid="GLO-0022">Cliente</rem:ref> asociado al objeto de la clase Pedido precisado en la precondicion, los valores de los atributos son nombre,apellidos,domicilio,localidad,CP,localidad,provincia,telefono, pais, email,dni</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
@@ -4987,7 +4987,7 @@ Ninguno</rem:comments>
 <rem:name>1 </rem:name>
 <rem:expression>
 <rem:natural>
-el resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>del objeto de la clase Pedido precisado en la precondicion, los valores de los atributos son estaEntregado.</rem:natural>
+el resultado de la operacion es:<br/>del objeto de la clase <rem:ref oid="GLO-0021">Producto</rem:ref> asociado al objeto de la clase Pedido precisado en la precondicion, los valores de los atributos son nombreProd, cantidadProd.<br/>del objeto de la clase Pedido precisado en la precondicion, los valores de los atributos son estaEntregado.</rem:natural>
 <rem:ocl><![CDATA[true]]></rem:ocl>
 </rem:expression>
 <rem:comments>
