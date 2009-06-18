@@ -613,31 +613,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0004"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-Informatizar el proceso de compra-venta de productos congelados</rem:description>
-<rem:objective
- oid = "OBJ-0005">
-<rem:name>
-Informatizar el proceso de facturación</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 STK-0006 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0002"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-informatizar el proceso de facturación.</rem:description>
-</rem:objective>
+deberá registrar cada una de las facturas que se generen en el proceso de venta de la <rem:ref oid="GLO-0017">empresa</rem:ref>, además dará la opcion de poder modificar todos los campos que la componen.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0003">
@@ -661,7 +637,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0002"/>
 <rem:description>
-avisarnos cuándo un <rem:ref oid="GLO-0021">producto</rem:ref> que ofrecemos a los clientes está al límite puesto por nuestra parte a punto de agotarse en existencias para  iniciar el proceso de compras en <rem:ref oid="GLO-0012">stock</rem:ref>, además el <rem:ref oid="GLO-0026">sistema</rem:ref> ha de indicarnos cuando un <rem:ref oid="GLO-0021">producto</rem:ref> hay que darle salida del <rem:ref oid="GLO-0023">almacén</rem:ref> ya que tienen un período de caducidad o cuando dicho período ha sido superado y hay que retirarlo del <rem:ref oid="GLO-0023">almacén</rem:ref> </rem:description>
+registrar cada uno de los productos que entrar nuevos en el almacen, asi como guardar toda su informacion, además el <rem:ref oid="GLO-0026">sistema</rem:ref> controlara el <rem:ref oid="GLO-0012">stock</rem:ref> de los productos que se encuentran en el almacen, cuando se haga una venta o una compra a proveedores.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0004">
@@ -685,7 +661,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-gestionar toda la informacion acerca de los pedidos que realizan los clientes</rem:description>
+gestionará todos los pedidos realizados por nuestros clientes, asi como también controlará el <rem:ref oid="GLO-0012">stock</rem:ref> de productos, una vez anotados en los pedidos. Además el <rem:ref oid="GLO-0026">sistema</rem:ref> nos dara la opcion de cambiar el estado de estos pedido una vez ya entregados.</rem:description>
 </rem:objective>
 </rem:section>
 <rem:section
@@ -1897,7 +1873,7 @@ Ninguno</rem:comments>
 <rem:number>9</rem:number>
 <rem:systemAction>
 <rem:description>
-registra la <rem:ref oid="GLO-0030">factura</rem:ref> y pregunta si se desea una copia de esta.</rem:description>
+registra la <rem:ref oid="GLO-0030">factura</rem:ref> y pregunta si se desea una copia de esta. (documento adjunto GRF-0027)</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2508,13 +2484,11 @@ Ninguno</rem:comments>
 <rem:th oid ="OBJ-0002"/>
 <rem:th oid ="OBJ-0003"/>
 <rem:th oid ="OBJ-0004"/>
-<rem:th oid ="OBJ-0005"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0001"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
@@ -2524,14 +2498,12 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0003"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
@@ -2540,11 +2512,9 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0005"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2556,12 +2526,10 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0001"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2572,7 +2540,6 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0003"/>
@@ -2580,15 +2547,13 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0006"/>
@@ -2596,12 +2561,10 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0007"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2612,14 +2575,12 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0010"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
@@ -2628,12 +2589,10 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0002"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2644,14 +2603,12 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0004"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
@@ -2660,13 +2617,11 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0006"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
@@ -5408,22 +5363,10 @@ Ninguno
 <rem:trace source = "UC-0003"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0005"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0005"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "UC-0006"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0006"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0009"  target = "OBJ-0003" >
@@ -5477,7 +5420,34 @@ Ninguno
 <rem:trace source = "SOP-0016"  target = "UC-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0005"  target = "OBJ-0002" >
+<rem:trace source = "UC-0006"  target = "GRF-0027" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0002"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0005"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0005"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "IRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>

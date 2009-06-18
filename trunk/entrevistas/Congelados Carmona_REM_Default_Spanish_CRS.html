@@ -704,25 +704,12 @@ Francisco Jose Barrera Gonzalez</a>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-Informatizar el proceso de compra-venta de productos congelados</em>
+deberá registrar cada una de las facturas que se generen en el proceso de venta de la <a href="#GLO-0017" title="organismo social integrado por elementos humanos, técnicos y materiales cuyo objetivo natural y principal es la obtención de utilidades, o bien, la prestación de servicios a la comunidad, coordinados por un administrador que toma decisiones en forma oportuna para la consecución de los objetivos para los que fueron creadas. Para cumplir con este objetivo la empresa combina naturaleza y capital.">empresa</a>, además dará la opcion de poder modificar todos los campos que la componen.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Subobjetivos</th>
-<td align="left" valign="top">
-<ul>
-<a name="OBJ-0005" />
-<li>
-<b>[OBJ-0005] 
-Informatizar el proceso de facturación</b>:
-		
-    El sistema deberá 
-<em>
-informatizar el proceso de facturación.</em> <ul>
-</ul>
-</li>
-</ul>
-</td>
+<td align="left" valign="top">Ninguno</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
@@ -805,8 +792,7 @@ Juan Hidalgo</a>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-avisarnos cuándo un <a href="#GLO-0021" title="Beneficio o ganancia:">producto</a> que ofrecemos a los clientes está al límite puesto por nuestra parte a punto de agotarse en existencias para  iniciar el proceso de compras en <a href="#GLO-0012" title="Stock: Cantidad de productos, materias primas, herramientas, etc., que es necesario tener almacenadas para compensar la diferencia entre el flujo del consumo y el de la producción. Constituye una inversión que permite asegurar en condiciones óptimas la continuidad de las ventas, las fabricaciones y la explotación normal de la empresa.">stock</a>, además el <a href="#GLO-0026" title="Conjunto de reglas o principios sobre una materia estructurados y enlazados entre sí.">sistema</a> ha de indicarnos cuando un <a href="#GLO-0021" title="Beneficio o ganancia:">producto</a> hay que darle salida del <a href="#GLO-0023" title="Local donde se guardan mercancías o se vende al por maryor.">almacén</a> ya que tienen un período de caducidad o cuando dicho período ha sido superado y hay que retirarlo del <a href="#GLO-0023" title="Local donde se guardan mercancías o se vende al por maryor.">almacén</a>
-</em>
+registrar cada uno de los productos que entrar nuevos en el almacen, asi como guardar toda su informacion, además el <a href="#GLO-0026" title="Conjunto de reglas o principios sobre una materia estructurados y enlazados entre sí.">sistema</a> controlara el <a href="#GLO-0012" title="Stock: Cantidad de productos, materias primas, herramientas, etc., que es necesario tener almacenadas para compensar la diferencia entre el flujo del consumo y el de la producción. Constituye una inversión que permite asegurar en condiciones óptimas la continuidad de las ventas, las fabricaciones y la explotación normal de la empresa.">stock</a> de los productos que se encuentran en el almacen, cuando se haga una venta o una compra a proveedores.</em>
 </td>
 </tr>
 <tr>
@@ -898,7 +884,7 @@ Juan Hidalgo</a>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-gestionar toda la informacion acerca de los pedidos que realizan los clientes</em>
+gestionará todos los pedidos realizados por nuestros clientes, asi como también controlará el <a href="#GLO-0012" title="Stock: Cantidad de productos, materias primas, herramientas, etc., que es necesario tener almacenadas para compensar la diferencia entre el flujo del consumo y el de la producción. Constituye una inversión que permite asegurar en condiciones óptimas la continuidad de las ventas, las fabricaciones y la explotación normal de la empresa.">stock</a> de productos, una vez anotados en los pedidos. Además el <a href="#GLO-0026" title="Conjunto de reglas o principios sobre una materia estructurados y enlazados entre sí.">sistema</a> nos dara la opcion de cambiar el estado de estos pedido una vez ya entregados.</em>
 </td>
 </tr>
 <tr>
@@ -2205,6 +2191,11 @@ Juan Hidalgo</a>
                                 [OBJ-0001] 
 Informatizacion relativa para los diferentes clientes</a>
 </li>
+<li>
+<a href="#IRQ-0001" title="Información sobre clientes">
+                                [IRQ-0001] 
+Información sobre clientes</a>
+</li>
 </td>
 </tr>
 <tr>
@@ -2393,6 +2384,11 @@ Juan Hidalgo</a>
 <a href="#OBJ-0001" title="Informatizacion relativa para los diferentes clientes">
                                 [OBJ-0001] 
 Informatizacion relativa para los diferentes clientes</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Información sobre clientes">
+                                [IRQ-0001] 
+Información sobre clientes</a>
 </li>
 </td>
 </tr>
@@ -2597,6 +2593,11 @@ Informatización relativa al proceso de compra-ventas</a>
 <a href="#OBJ-0003" title="Informatización de la gestión de almacén">
                                 [OBJ-0003] 
 Informatización de la gestión de almacén</a>
+</li>
+<li>
+<a href="#IRQ-0003" title="Información sobre pedidos">
+                                [IRQ-0003] 
+Información sobre pedidos</a>
 </li>
 </td>
 </tr>
@@ -2814,14 +2815,14 @@ Juan Hidalgo</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0001" title="Informatizacion relativa para los diferentes clientes">
-                                [OBJ-0001] 
-Informatizacion relativa para los diferentes clientes</a>
+<a href="#IRQ-0003" title="Información sobre pedidos">
+                                [IRQ-0003] 
+Información sobre pedidos</a>
 </li>
 <li>
-<a href="#OBJ-0002" title="Informatización relativa al proceso de compra-ventas">
-                                [OBJ-0002] 
-Informatización relativa al proceso de compra-ventas</a>
+<a href="#OBJ-0004" title="Informatizacion relativa al proceso de gestion de pedidos">
+                                [OBJ-0004] 
+Informatizacion relativa al proceso de gestion de pedidos</a>
 </li>
 </td>
 </tr>
@@ -3028,6 +3029,11 @@ Informatizacion relativa para los diferentes clientes</a>
                                 [OBJ-0002] 
 Informatización relativa al proceso de compra-ventas</a>
 </li>
+<li>
+<a href="#IRQ-0006" title="Información sobre facturas">
+                                [IRQ-0006] 
+Información sobre facturas</a>
+</li>
 </td>
 </tr>
 <tr>
@@ -3135,7 +3141,7 @@ confirma.</em>
 <td>El
      
     sistema<em>
-registra la <a href="#GLO-0030" title="Es un documento que refleja la entrega de un producto o la provisión de un servicio, además de indicar la cantidad a pagar como contraprestación.En la factura se encuentran los datos del expedidor y del destinatario, el detalle de los productos y servicios suministrados, los precios unitarios, los precios totales y los impuestos.">factura</a> y pregunta si se desea una copia de esta.</em>
+registra la <a href="#GLO-0030" title="Es un documento que refleja la entrega de un producto o la provisión de un servicio, además de indicar la cantidad a pagar como contraprestación.En la factura se encuentran los datos del expedidor y del destinatario, el detalle de los productos y servicios suministrados, los precios unitarios, los precios totales y los impuestos.">factura</a> y pregunta si se desea una copia de esta. (documento adjunto GRF-0027)</em>
 </td>
 </tr>
 <tr>
@@ -3272,14 +3278,9 @@ Juan Hidalgo</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0001" title="Informatizacion relativa para los diferentes clientes">
-                                [OBJ-0001] 
-Informatizacion relativa para los diferentes clientes</a>
-</li>
-<li>
-<a href="#OBJ-0002" title="Informatización relativa al proceso de compra-ventas">
-                                [OBJ-0002] 
-Informatización relativa al proceso de compra-ventas</a>
+<a href="#IRQ-0006" title="Información sobre facturas">
+                                [IRQ-0006] 
+Información sobre facturas</a>
 </li>
 </td>
 </tr>
@@ -3531,6 +3532,11 @@ Juan Hidalgo</a>
                                 [OBJ-0003] 
 Informatización de la gestión de almacén</a>
 </li>
+<li>
+<a href="#IRQ-0002" title="Información sobre productos">
+                                [IRQ-0002] 
+Información sobre productos</a>
+</li>
 </td>
 </tr>
 <tr>
@@ -3727,6 +3733,11 @@ Juan Hidalgo</a>
 <a href="#OBJ-0003" title="Informatización de la gestión de almacén">
                                 [OBJ-0003] 
 Informatización de la gestión de almacén</a>
+</li>
+<li>
+<a href="#IRQ-0002" title="Información sobre productos">
+                                [IRQ-0002] 
+Información sobre productos</a>
 </li>
 </td>
 </tr>
@@ -4775,9 +4786,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <th align="center" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #OBJ-0004" title="Informatizacion relativa al proceso de gestion de pedidos">OBJ-0004</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #OBJ-0005" title="Informatizar el proceso de facturación">OBJ-0005</a>
-</th>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -4789,9 +4797,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
 <img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-<td align="center" valign="top">
-                -
-            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -4815,9 +4820,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -4832,9 +4834,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
 <img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-<td align="center" valign="top">
-                -
-            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -4855,17 +4854,11 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #IRQ-0005" title="Información sobre comerciales">IRQ-0005</a>
 </th>
-<td align="center" valign="top">
-                -
-            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -4895,9 +4888,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -4906,9 +4896,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
 <img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-<td align="center" valign="top">
-                -
-            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -4935,9 +4922,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -4955,29 +4939,23 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #UC-0005" title="Confirmación de entrega">UC-0005</a>
 </th>
 <td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
 <img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -4995,20 +4973,14 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #UC-0007" title="Modificar factura">UC-0007</a>
 </th>
 <td align="center" valign="top">
-<img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -5035,9 +5007,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -5052,9 +5021,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
 <img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-<td align="center" valign="top">
-                -
-            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -5075,9 +5041,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -5086,9 +5049,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
 <img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-<td align="center" valign="top">
-                -
-            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -5115,9 +5075,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -5132,9 +5089,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
 <img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-<td align="center" valign="top">
-                -
-            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -5155,9 +5109,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -5169,9 +5120,6 @@ Matriz de rastreabilidad objetivos</h1><a name="TRM-0001" />
 <td align="center" valign="top">
 <img src="&#xA;C:\Archivos de programa\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-<td align="center" valign="top">
-                -
-            </td>
 <td align="center" valign="top">
                 -
             </td>
