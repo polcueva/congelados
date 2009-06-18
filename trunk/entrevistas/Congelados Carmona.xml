@@ -1179,7 +1179,7 @@ Proceso de gestión de clientes</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagrama casos de usos\Proceso de gestion de cliente.jpg]]>
+<![CDATA[.\diagrama casos de usos\Proceso de gestion de cliente.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -1218,7 +1218,7 @@ Proceso de gestión de pedidos</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagrama casos de usos\Proceso de gestion de pedidos.jpg]]>
+<![CDATA[.\diagrama casos de usos\Proceso de gestion de pedidos.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -1257,7 +1257,7 @@ Proceso de gestión de facturación</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagrama casos de usos\Proceso de gestion de facturación.jpg]]>
+<![CDATA[.\diagrama casos de usos\Proceso de gestion de facturación.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -1296,7 +1296,7 @@ Procesos de gestión de existencias</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\diagrama casos de usos\Proceso de gestion de existencias.jpg]]>
+<![CDATA[.\diagrama casos de usos\Proceso de gestion de existencias.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
