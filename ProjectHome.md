@@ -1,0 +1,1 @@
+Desarrollo de una aplicación para la gestión de productos alimenticios congelados: provisionado, almacenaje y distribución.
